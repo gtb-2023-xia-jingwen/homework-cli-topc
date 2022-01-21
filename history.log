@@ -1,0 +1,5063 @@
+exit
+ll
+git
+sudo snap install shell2http
+shell2http -cgi /cat "cat /tmp/abc.txt" POST:/top "cat | jq . >> /tmp/abc.txt; echo >> /tmp/abc.txt; echo Ok"
+telnet -nltp
+netstat -nltp
+nohup shell2http -cgi /cat "cat /tmp/abc.txt" POST:/top "cat | jq . >> /tmp/abc.txt; echo >> /tmp/abc.txt; echo Ok" &
+ll
+cat nohup.out
+netstat -nltp
+date
+telnet localhost 8080
+kill 1521
+ps aux
+ps aux | shell
+ps aux | grep shell
+nohup shell2http -port=2022 -cgi /cat "cat /tmp/abc.txt" POST:/top "cat | jq . >> /tmp/abc.txt; echo >> /tmp/abc.txt; echo Ok" &
+cat nohup.out
+ll
+shell2http -port=2022 -cgi /cat "cat /tmp/abc.txt" POST:/top "cat | jq . >> /tmp/abc.txt; echo >> /tmp/abc.txt; echo Ok"
+pwd
+ps aux
+ps aux | grep shell
+kill 1574
+ps aux | grep shell
+shell2http -port=2022 -cgi /cat "cat /tmp/abc.txt" POST:/top "cat | jq . >> /tmp/abc.txt; echo >> /tmp/abc.txt; echo Ok"
+vim ~/.bashrc
+curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/uninstall.sh)"
+curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/uninstall.sh > uninstall.sh
+bash uninstall.sh --help
+bash uninstall.sh --dry-run
+bash uninstall.sh --force
+vim uninstall.sh
+curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh > install .sh
+curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh > install.sh
+rm install
+ll
+vim install.sh
+bash install.sh
+curl -sL https://gitee.com/brew-cn/use-brew-cn/raw/master/install.sh | bash -
+curl -sL https://gitee.com/brew-cn/use-brew-cn/raw/master/install.sh > install-cn.sh
+vim install-cn.sh
+rm Homebrew.sh ; wget https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh ; bash Homebrew.sh
+brew update-reset
+source /home/ubuntu/.profile
+brew update-reset
+brew install jq
+rm HomebrewUninstall.sh ; wget https://gitee.com/cunkai/HomebrewCN/raw/master/HomebrewUninstall.sh ; bash HomebrewUninstall.sh
+rm -rf ~/Desktop/Old_Homebrew/
+sudo rm -rf ~/Desktop/Old_Homebrew/
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+bash install.sh
+echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"' >> /home/ubuntu/.profile
+sudo apt-get install build-essential
+brew install gcc
+brew doctor
+echo $HOMEBREW_BOTTLE_DOMAIN
+shell2http -port=2022 -cgi /cat "cat /tmp/abc.txt" POST:/top "cat | json_pp >> /tmp/abc.txt; echo >> /tmp/abc.txt; echo Ok"
+json_pp
+shell2http -port=2022 -cgi /cat "cat /tmp/abc.txt" POST:/top "cat >> /tmp/abc.txt; echo >> /tmp/abc.txt; echo Ok"
+cat /tmp/abc.txt
+ll /tmp/
+ll
+vim install.sh
+ll
+snap list
+snap find jq
+go --version
+apt install golang-go
+go install github.com/msoap/shell2http@latest && ln -s $(go env GOPATH)/bin/shell2http ~/bin/shell2http
+go --version
+go -version
+go help
+go version
+apt uninstall golang-go
+apt remove golang-go
+apt -h
+sudo apt remove golang-go
+apt update
+sudo apt update
+apt list --upgradable
+apt -h
+apt show golang-go
+brew tap msoap/tools
+brew install shell2http
+jq
+brew install jq
+cat /tmp/abc.txt
+tail -f /tmp/abc.txt
+brew doctor
+rm -rf "/home/linuxbrew/.linuxbrew/Homebrew/Library/Taps/homebrew/homebrew-core"
+brew doctor
+brew install gcc
+brew search golang
+brew info golang
+brew install golang
+shell2http -port=2022 -cgi /cat "cat /tmp/abc.txt" POST:/top "cat | jq . >> /tmp/abc.txt; echo >> /tmp/abc.txt; echo Ok"
+shell2http -port=2022 -cgi /cat "cat /tmp/abc.txt" HEAD:/top "ecoh Ok" POST:/top "cat | jq . >> /tmp/abc.txt; echo >> /tmp/abc.txt; echo Ok"
+curl --version
+curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh
+whoami
+sudo passwd ubuntu
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+ps aux | grep shell
+kill 7173
+ps aux | grep shell
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/uninstall.sh)"
+curl -sL https://gitee.com/brew-cn/use-brew-cn/raw/master/install.sh | bash -
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/uninstall.sh)"
+date
+snap -h
+sudo snap disable shell2http
+sudo snap enable shell2http
+sudo snap disable shell2http
+echo $PATH
+ll ~/bin
+mkdir bin
+vim bin/panda
+chmod +x bin/panda
+panda
+go install github.com/msoap/shell2http@latest && ln -s $(go env GOPATH)/bin/shell2http ~/bin/shell2http
+sudo apt intall mailutils
+sudo apt install mailutils
+echo $?
+man mail
+echo $?
+echo $?
+man maiil
+man mail
+man mail
+mail --version
+cat /var/log/mail.err
+ll /etc/postfix/main.cf
+touch /etc/postfix/main.cf
+apt list | grep postfix
+ll /etc
+cat /var/log/mail.err
+ll /etc/postfix/
+cp /etc/postfix/main.cf{.proto,}
+sudo cp /etc/postfix/main.cf{.proto,}
+ll /etc/postfix/
+cat /var/log/mail.err
+cat -n /var/log/mail.err
+cat -n /var/log/mail.err
+sudo vim /etc/postfix/main.cf
+cat -n /var/log/mail.err
+sudo vim /etc/postfix/main.cf
+echo $?
+cat -n /var/log/mail.err
+cat -n /var/log/mail.log
+cat -n /var/log/mail.log
+postfix check
+sudo mkfifo /var/spool/postfix/public/pickup
+service postfix restart
+sudo service postfix start
+systemctl status postfix.service
+sudo vim /etc/postfix/main.cf
+journalctl -xe
+sudo service postfix start
+journalctl -xe
+sudo service postfix stop
+journalctl -xe
+sudo service postfix start
+echo $?
+cat -n /var/log/mail.log
+cat -n /var/log/mail.log
+cat -n /var/log/mail.log
+echo $?
+cat -n /var/log/mail.log
+cat -n /var/log/mail.err
+sudo vim /etc/postfix/main.cf
+sudo service postfix start
+echo $?
+echo $?
+cat -n /var/log/mail.err
+cat -n /var/log/mail.log
+cat -n /var/log/mail.log
+cat -n /var/log/mail.log
+cat -n /var/log/mail.log
+cat -n /var/log/mail.log
+cat -n /var/log/mail.log
+kill -l
+kill -l | fzf
+kill -l | less
+brew install golang
+go --version
+go version
+brew install GTB-training/gtb/util
+vim ~/.bashrc
+source ~/.bashrc
+gtb init
+ll code
+rm -rf ~/code
+vim ~/.bashrc
+source ~/.bashrc
+gtb init
+ll ~/.ssh/
+ssh-keygen -t rsa -C aws-gtb-server
+cat ~/.ssh/id_rsa.pub
+gtb init
+gtb st list
+gtb st list
+kasjdf
+echo $LANG
+export LANG=zh_CN.UTF-8
+gtb st list
+apt list -h
+apt list help
+apt help list
+apt list --help
+apt list --all
+apt search chinese
+apt search chinese | less
+sudo apt install fonts-wqy-zenhei
+ll
+cd gtb/
+ll
+gtb st list
+echo $LANG
+gtb st list
+apt search chinese | less
+sudo apt install install fonts-droid
+sudo apt install fonts-droid
+sudo fc-cache -f -v
+gtb st list
+brew install GTB-training/gtb/util
+ll
+sudo vim /etc/hosts
+brew install GTB-training/gtb/util
+gtb st list
+echo $LANG
+export LANG=zh_CN.UTF-8
+gtb st list
+local -a
+locale -a
+echo $LC_ALL
+export LC_ALL=en_US.UTF-8
+gtb st list
+vim ~/.bashrc
+fg
+gtb st list
+vim ~/.bashrc
+gtb st list
+gtb st list > test.txt
+vim test.txt
+vim ~/.bashrc
+vim ~/.bashrc
+fg
+history --help
+man history
+history -a
+history -a
+echo $?
+fg
+vim ~/.bashrc
+history
+vim ~/.bashrc
+history
+source ~/.bashrc
+history
+ll
+pwd
+echo $LC_ALL
+date
+date
+date
+ll
+date
+date
+date
+date
+date
+gtb st list
+gtb st list | grep 王熊猫
+ll
+date
+gtb config update
+gtb config pull
+brew upgrade
+gtb upgrade
+brew update
+brew update && gtb upgrade
+cd /home/linuxbrew/.linuxbrew/Homebrew/Library/Taps/msoap/homebrew-tools
+ll
+cd /home/linuxbrew/.linuxbrew/Homebrew/Library/Taps/gtb-training/homebrew-gtb
+ll
+git st
+git st
+git status
+git pull --rebase
+sudo vim /etc/hosts
+git pull --rebase
+sudo vim /etc/hosts
+gtb config pull
+gtb upgrade
+gtb upgrade
+brew --prefix gtb
+brew --prefix gtb/uril
+brew --prefix vim
+ll /home/linuxbrew/.linuxbrew/opt
+vim /home/linuxbrew/.linuxbrew/opt/util/bin/gtb
+vim --version
+echo $PATH
+brew update
+gtb --version
+gtb version
+~/bin/gtb version
+cp bin/gtb /home/linuxbrew/.linuxbrew/bin/
+sudo bin/gtb /home/linuxbrew/.linuxbrew/bin/
+sudo cp bin/gtb /home/linuxbrew/.linuxbrew/bin/
+gtb version
+gtb version
+cd
+ll
+ll
+cd gtb
+ll
+cd repos/
+ll
+up
+ll
+echo $GTB_ROOT
+ll
+cd
+ll
+ll snap/
+ll gtb/repos/
+ll bin/
+cat bin/panda
+panda
+mkdir code
+cd code
+sudo apt install webhook
+sudo apt update
+sudo apt list --upgradable
+sudo apt install webhook
+go --version
+go version
+go build --help
+go  help build
+cat /proc/cpuinfo
+uname -m
+brew list
+brew list | grep webhook
+brew search webhook
+brew info webhook
+brew install webhook
+brew --prefix webhook
+ll /home/linuxbrew/.linuxbrew/opt/
+ll /home/linuxbrew/.linuxbrew/opt/webhook
+ll /home/linuxbrew/.linuxbrew/opt/webhook/
+ll /home/linuxbrew/.linuxbrew/opt/webhook/bin/
+brew service list
+brew services list
+brew update
+brew tap homebrew/autoupdate
+webhook --version
+ll
+man less
+man less
+cd code
+ll
+ll
+cd automation/
+cd code
+ll
+cd automation/
+ll
+brew install glow
+glow README.md
+sudo cp webhook.service /etc/systemd/system/
+sudo systemctl -h
+sudo systemctl list-units
+sudo systemctl start webhook.service
+systemctl status webhook.service
+systemctl status webhook.service
+ll
+ps aux | grep webhook
+kill 23968
+webhook -hooks hooks.json -verbose
+man kill
+brew --prefix webhook
+ll /home/linuxbrew/.linuxbrew/opt/webhook/bin/webhook
+git pr
+git pull --rebase
+sudo cp webhook.service /etc/systemd/system/
+sudo systemctl start webhook.service
+systemctl status postfix.service
+systemctl status webhook.service
+/home/linuxbrew/.linuxbrew/opt/webhook/bin/webhook -hotreload -hooks hooks.json -port 9000 -logfile /var/log/webhook.log -pidfile /var/run/webhook.pid
+ll /var/log/
+git pull --rebase
+sudo cp webhook.service /etc/systemd/system/
+sudo systemctl start webhook.service
+sudo systemctl daemon-reload
+sudo systemctl start webhook.service
+systemctl status webhook.service
+systemctl status webhook.service
+less +F /var/log/webhook.log
+less +F /var/log/webhook.log
+brew --prefix util
+ll /home/linuxbrew/.linuxbrew/opt/util/bin/
+git pull --rebase
+sudo cp webhook.service /etc/systemd/system/
+glow README.md
+kill -USR1 $(cat /var/run/webhook.pid)
+kill -s USR1 $(cat /var/run/webhook.pid)
+sudo kill -s USR1 $(cat /var/run/webhook.pid)
+cat /var/run/webhook.pid
+ll /var/run/webhook.pid
+sudo kill -s USR1 $(sudo cat /var/run/webhook.pid)
+git pull --rebase
+git pull --rebase
+sudo kill -s USR1 $(sudo cat /var/run/webhook.pid)
+git pull --rebase
+vim ~/.bashrc
+git st
+cat env
+git pull --rebase
+git st
+git status
+cp env ../
+mv env ../
+git pull --rebase
+cp ../env .
+git st
+git status
+git st
+git status
+git checkout env
+git status
+git pull --rebase
+cp ../env .
+git status
+git pull --rebase
+source /home/ubuntu/code/automation/env
+cat /home/ubuntu/code/automation/env
+vim /home/linuxbrew/.linuxbrew/opt/util/bin/gtb
+which env_parallel.bash
+ll /home/linuxbrew/.linuxbrew/bin/env_parallel.bash
+vim /home/linuxbrew/.linuxbrew/opt/util/bin/gtb
+fg
+vim /home/linuxbrew/.linuxbrew/opt/util/bin/gtb
+vim /home/linuxbrew/.linuxbrew/opt/util/bin/gtb
+git --version
+fg
+git --version
+which git
+sudo apt install git
+/home/linuxbrew/.linuxbrew/bin/brew shellenv
+/home/linuxbrew/.linuxbrew/bin/brew
+/home/linuxbrew/.linuxbrew/bin/brew  | grep shell
+/home/linuxbrew/.linuxbrew/bin/brew  | less
+brew doctor
+vim ~/.bashrc
+echo $PATH
+vim /etc/bash.bashrc
+vim hooks/gtb-config-update
+less +F /var/log/webhook.log
+tail -F /var/log/webhook.log
+vim hooks/gtb-config-update
+brew --prefix git
+ll /home/linuxbrew/.linuxbrew/opt/git
+ll /home/linuxbrew/.linuxbrew/opt/git/bin/git
+fg
+su - linuxbrew
+whoami
+cat /etc/passwd
+cat /etc/passwd | grep brew
+ll /home/linuxbrew/
+ll /home/
+ll -a /home/linuxbrew/
+ll -a /home/linuxbrew/.linuxbrew/
+ll ~/.profile
+vim ~/.profile
+less +F /var/log/webhook.log
+fg
+vim /home/linuxbrew/.linuxbrew/opt/util/bin/gtb
+cat ~/.ssh/known_hosts
+ssh-keyscan -t rsa github.com >> ~/.ssh/known_hosts
+cat ~/.ssh/known_hosts
+sudo cp -r ~/.ssh /root/
+git status
+git diff
+git checkout .
+git pull --rebse
+git pull --rebase
+ll
+sudo cp webhook.service /etc/systemd/system/webhook.service
+glow README.md
+sudo systemctl daemon-reload
+sudo systemctl start webhook.service
+sudo systemctl enable webhook.service
+systemctl status webhook.service
+ll
+ll /home/linuxbrew/.linuxbrew/opt/webhook/bin/webhook
+ll /home/linuxbrew/.linuxbrew/opt/webhook/bin/
+ll /home/linuxbrew/.linuxbrew/opt/webhook
+ll /home/linuxbrew/.linuxbrew/opt/
+sudo rm /root/.ssh
+sudo rm -rf /root/.ssh
+sudo systemctl restart webhook.service
+tail -F /var/log/webhook.log
+ll
+systemctl status webhook.service
+tail -F webhook.log
+git pull --rebase
+ll
+vim /home/linuxbrew/.linuxbrew/opt/util/bin/gtb
+tail -F webhook.log
+git pull --rebase
+sudo systemctl restart webhook.service
+tail -F webhook.log
+cd code/automation/
+git pull --rebse
+git pull --rebase
+sudo kill -s USR1 $(sudo cat /var/run/webhook.pid)
+sudo kill -s USR1 $(sudo cat webhook.pid)
+sudo systemctl restart webhook.service
+sudo systemctl status webhook.service
+ll
+cd code/automation/
+ll
+ll
+cat hooks.json
+vim hooks.json
+sudo kill -s USR1 $(sudo cat webhook.pid)
+sudo systemctl status webhook.service
+tail -F webhook.log
+vim handlers/gtb-upgrade
+vim handlers/gtb-upgrade
+kill -s USR1 $(sudo cat webhook.pid)
+kill -s USR1 $(cat webhook.pid)
+tail -F webhook.log
+tail -F webhook.log
+cat handlers/gtb-upgrade p
+getconf ARG_MAX
+echo $(( $(ulimit -s)*1024 / 4 ))
+brew update
+vim ~/.gitconfig
+brew update
+brew update
+brew help update
+brew update --verbose
+brew upgrade GTB-training/gtb/util
+cd /home/linuxbrew/.linuxbrew/opt/util/
+git status
+ls bin/
+cd bin/
+cd
+cat ~/.gitconfig
+cd code/automation/
+git pull --rebase
+git status
+git stash
+git pull --rebase --autostash
+git diff
+git status
+git stash list
+git stash diff
+git stash show stash@{0}
+git stash show stash@{0} --diff
+git stash pop stash@{0}
+git status
+git diff
+ll /etc/inputrc
+sudo vim /etc/inputrc
+ll
+json_pp
+ll
+pwd
+cd code
+cd automation/
+ll
+cat hooks.json | json_pp
+gtb upgrade
+brew update && gtb upgrade --yes
+brew install gtb-training/util/gtb
+brew install gtb-training/gtb/util
+brew link util
+brew version
+gtb version
+cd code/automation/
+git status
+git diff
+git pull --rebase --autostash
+git stash pop stash@{0}
+git status
+vii handlers/gtb-upgrade
+vim handlers/gtb-upgrade
+git status
+git diff
+git reset .
+git reset .
+git status
+git diff
+ll
+./hotreload
+ll
+ll /tmp/
+less /tmp/task.input.1
+diff /tmp/task.input.*
+cat /tmp/task.input.1 | json_pp
+tail -F webhook.log
+date
+vim hooks.json
+./hotreload
+tail -F webhook.log
+ll /tmp/task.input.1
+cat /tmp/task.input.1
+tail -F webhook.log
+less /tmp/task.input.1
+less +N /tmp/task.input.1
+less -N /tmp/task.input.1
+less -N /tmp/task.input.2
+diff /tmp/task.input.*
+bash -c 'git --version'
+date
+git status
+git diff
+env
+tail -F webhook.log
+git status
+git diff
+git checkout .
+git pull --rebase --autostash
+ll
+./hotreload
+vim hooks.json
+./hotreload
+git checkout .
+git pull --rebase --autostash
+./hotreload
+cat handlers/default
+date "+%Y%m%d-%H%M%S"
+date "+%Y%m%d-%H%M%S"
+date "+%Y%m%d-%H%M%S"
+date +"%Z %z"
+timedatectl
+cat /etc/timezone
+date "+%Y%m%d-%H%M%S"
+date "+%Y%m%d-%H%M%S"
+date "+%Y%m%d-%H%M%S"
+date "+%Y%m%d-%H%M%S"
+date "+%Y%m%d-%H%M%S"
+git diff
+git satus
+git status
+git pull --rebase --autostash
+./hotreload
+cat hooks.json
+ll
+tree tasks/
+sudo apt install tree
+tree tasks/
+vim tasks/todo/task-20211121-152940-10001/env
+sudo systemctl restart webhook.service
+tail -F webhook.log
+tail -F webhook.log
+vim tasks/todo/task-20211121-153236-10002/env
+git status
+git pull --rebase --autostash
+./hotreload
+cat tasks/todo/task-20211121-153616-10003/env
+cat tasks/todo/task-20211121-153616-10003/args
+cat tasks/todo/task-20211121-153616-10003/cmd
+cat tasks/todo/task-20211121-154437-10004/*
+cd tasks/todo/task-20211121-154437-10004/
+vim env
+chmod +x /home/ubuntu/code/automation/commands/*
+cd ../../../
+ll
+git status
+chmod -x commands/*
+git status
+cd -
+cat env
+cd ../../../
+git pull --rebase --autostash
+ll
+cat handlers/default
+ls -l /etc/localtime
+ls -l /etc/localtime
+cat /usr/share/zoneinfo/Etc/UTC
+cat /etc/timezone
+timedatectl list-timezones
+sudo timedatectl set-timezone Asia/Shanghai
+sudo timedatectl
+sudo systemctl restart webhook.service
+cd tasks/
+ll
+ls todo/
+ls todo/ | cat -n
+ls todo/ | cat
+ls todo/ | sort | cat
+man ls
+find ./todo -type d -name 'task-*'
+find "$PWD/todo" -type d -name 'task-*'
+ll /home/ubuntu/code/automation/tasks/todo/task-20211121-153236-10002
+find "$PWD/todo" -type d -name 'task-*' | sort
+git pull --rebase --autostash
+ll
+ll
+../services/task-runner/task-runner >>../services/task-runner/log 2>&1 &
+ps aux | grep task
+tail -f webhook.log
+cd ../
+vim services/task-runner/task-runner
+pkill task-runner
+ps aux | grep task
+kill 20421
+ps aux | grep task
+cd tasks/
+../services/task-runner/task-runner
+bash -x ../services/task-runner/task-runner
+vim ../services/task-runner/task-runner
+../services/task-runner/task-runner
+vim ../services/task-runner/task-runner
+tail -f services/task-runner/log
+tail -f services/task-runner/log
+tree -a tasks/
+mv tasks/done/* tasks/todo/
+../services/task-runner/task-runner
+vim ../services/task-runner/task-runner
+mv done/* todo/
+tree -a .
+tree -a .
+tree -a tasks
+tree -a tasks
+../services/task-runner/task-runner
+git status
+cd ../
+git status
+git diff git diff
+git diff
+git checkout .
+git status
+rm services/task-runner/log
+git status
+git pull --rebase --autostash
+cd tasks/
+mv done/* failed/* todo/
+tree -a tasks
+../services/task-runner/task-runner
+tree -a tasks
+tree -a -L2 tasks
+tree -a -D2 tasks
+tree -a -L 2 tasks
+vim ../commands/gtb-config-pull
+git status
+git status
+git pull --rebase --autostash
+mv tasks/done/* tasks/failed/* tasks/todo/
+tail -f services/task-runner/lo
+tail -f services/task-runner/log
+../services/task-runner/task-runner
+less ../README.md
+sudo cp ../services/task-runner/task-runner.service /etc/systemd/system/
+sudo systemctl start test-runner.service
+sudo systemctl start task-runner.service
+sudo systemctl enable task-runner.service
+sudo systemctl status task-runner.service
+which kill
+git pull --rebase --autostash
+sudo cp ../webhook.service /etc/systemd/system/
+sudo cp ../services/task-runner/task-runner.service /etc/systemd/system/
+sudo systemctl daemon-reload
+sudo systemctl restart webhook.service
+sudo systemctl restart task-runner.service
+sudo systemctl status task-runner.service
+tail -f ../services/task-runner/log
+mv tasks/done/* tasks/failed/* tasks/todo/
+tail -F ../services/task-runner/log
+tail -F ../services/task-runner/log
+tail -F ../services/task-runner/log
+cat ../services/task-runner/task-runner.service
+tail -f /home/ubuntu/code/automation/services/task-runner/log
+ll
+tree -a -L 2 tasks
+ll
+ll ../services/task-runner/
+ll
+cd ../services/
+ll
+cd task-runner/
+ll
+sudo systemctl status task-runner.service
+journalctl -xefu task-runner
+git pull --rebase --autostash
+journalctl -xefu task-runner
+journalctl -xefu webhook
+journalctl -xefu -b webhook
+journalctl -xefu webhook -b
+journalctl -u webhook -b
+git show
+git show
+sudo cp ../services/task-runner/task-runner.service /etc/systemd/system/
+sudo cp ../..//services/task-runner/task-runner.service /etc/systemd/system/
+sudo systemctl daemon-reload
+journalctl -u task-runner.service -b
+journalctl -fu task-runner.service -b
+journalctl -xefu task-runner.service
+man journalctl
+journalctl -fu task-runner.service -b
+journalctl -f
+journalctl -f -n1000
+journalctl -n1000
+journalctl -n1000 --no-pager
+journalctl -n1000 --no-pager  | less
+sudo visudo
+cat /etc/sudoers
+sudo cat /etc/sudoers
+sudo ll /etc/sudoers.d/
+sudo ls /etc/sudoers.d/
+ll
+sudo passwd -d ubuntu
+git status
+git pull --rebase --autostash
+cd ../../
+sudo cp webhook.service /etc/systemd/system/
+sudo cp services/task-runner/task-runner.service /etc/systemd/system/
+sudo systemctl daemon-reload
+journalctl -u task-runner.service -b
+sudo systemctl restart task-runner.service
+journalctl -u task-runner.service -b
+journalctl -u task-runner.service
+systemctl status task-runner.service
+systemctl status -n100 task-runner.service
+journalctl -efu task-runner.service
+cd tasks/
+mv done/* failed/* todo/; tree -a -L 2 .
+tree -a -L 2 .
+cat failed/task-20211121-152940-10001/output
+cat done/task-20211121-154437-10004/output
+cat done/task-20211121-154437-10004/exit_code
+git status
+git pull --rebase --autostash
+sudo cp services/task-runner/task-runner.service /etc/systemd/system/
+cd ..
+sudo cp services/task-runner/task-runner.service /etc/systemd/system/
+sudo systemctl daemon-reload
+journalctl -efu task-runner.service
+sudo systemctl restart task-runner.service
+git pull --rebase --autostash
+sudo cp services/task-runner/task-runner.service /etc/systemd/system/
+sudo systemctl daemon-reload
+sudo systemctl restart task-runner.service
+sudo systemctl restart task-runner.service
+cd tasks
+mv done/* failed/* todo/; tree -a -L 2 .
+tree -a -L 2 .
+tree -a -L 2 .
+tree -a -L 2 .
+basename /home/ubuntu/code/automation/commands/gtb-config-pull
+git pull --rebase --autostash
+sudo cp services/task-runner/task-runner.service /etc/systemd/system/
+cd ..
+sudo systemctl daemon-reload
+sudo cp services/task-runner/task-runner.service /etc/systemd/system/
+sudo systemctl daemon-reload
+sudo systemctl restart task-runner.service
+mv done/* failed/* todo/; tree -a -L 2 .
+cd tasks
+mv done/* failed/* todo/; tree -a -L 2 .
+tree -a -L 2 .
+tree -a -L 2 .
+tree -a -L 2 .
+tree -a -L 2 .
+tree -a -L 2 .
+tree -a -L 2 .
+tree -a -L 2 .
+tree -a -L 2 .
+tree -a -L 2 .
+tree -a -L 2 .
+tree -a -L 2 .
+tree -a -L 2 .
+tree -a -L 2 .
+tree -a -L 2 .
+tree -a -L 2 .
+tree -a -L 2 .
+tree -a -L 2 .
+tree -a -L 2 .
+tree -a -L 2 .
+tree -a -L 2 .
+tree -a -L 2 .
+tree -a -L 2 .
+tree -a -L 2 .
+journalctl -efu task-runner.service
+journalctl --list-boots
+journalctl -efu task-runner.service
+journalctl -eu task-runner.service
+git pull --rebase --autostash
+cd code/automation/
+cd code/automation/
+ll
+git pull --rebase --autostash
+./scripts/log-tail
+./scripts/log-less
+vim ~/.profile
+vim ~/.bashrc
+git pull --rebase --autostash
+sudo cp services/webhook/webhook.service /etc/systemd/system/
+sudo systemctl daemon-reload
+sudo systemctl restart webhook.service
+tail -f services/webhook/webhook.log
+vim services/webhook/webhook.service
+sudo cp services/webhook/webhook.service /etc/systemd/system/
+sudo systemctl daemon-reload
+sudo systemctl restart webhook.service
+./scripts/log-tail
+sudo systemctl status webhook.service
+ll
+tail -f webhook.log
+rm webhook.log
+ll
+cat env
+git st
+git status
+rm env
+git diff
+find . -type f -name '*.log'
+rm ./services/webhook/webhook.log
+sudo systemctl restart webhook.service
+vim services/webhook/webhook.service
+ll
+ll services/webhook/
+sudo cp services/webhook/webhook.service /etc/systemd/system/
+sudo systemctl daemon-reload
+sudo systemctl restart webhook.service
+git diff
+git checkout .
+git status
+git pull --rebase --autostash
+history
+systemctl help
+systemctl status --help
+sudo systemctl status webhook.service
+sudo systemctl -n100 status webhook.service
+sudo systemctl -n10 status webhook.service
+sudo systemctl -n5 status webhook.service
+sudo systemctl -n1 status webhook.service
+sudo systemctl status -n1 webhook.service
+systemctl status --help
+systemctl list-units
+systemctl list-units | grep web
+systemctl list-units | grep task
+git status
+git pull --rebase --autostash
+./scripts/service-restart
+./scripts/service-restart webhook
+./scripts/service-restart task-runner
+echo $TERM
+env
+vim /home/ubuntu/code/automation/commands/gtb-config-pull
+mv tasks/failed/task-20211122-001920-10005 tasks/todo/
+vim config/env
+mv tasks/failed/task-20211122-001920-10005 tasks/todo/
+mv ~/bin/gtb{,.old}
+mv tasks/failed/task-20211122-001920-10005 tasks/todo/
+cat /home/ubuntu/code/automation/commands/gtb-config-pull
+which gtb
+vim /home/ubuntu/code/automation/commands/gtb-config-pull
+mv tasks/failed/task-20211122-001920-10005 tasks/todo/
+vim /home/ubuntu/code/automation/commands/gtb-config-pull
+mv tasks/failed/task-20211122-001920-10005 tasks/todo/
+echo $TERM
+vim config/env
+git status
+git pull --rebase --autostash
+git diff
+mv tasks/failed/task-20211122-001920-10005 tasks/todo/
+git pull --rebase --autostash
+mv tasks/failed/task-20211122-001920-10005 tasks/todo/
+./scripts/service-install task-runner
+mv tasks/failed/task-20211122-001920-10005 tasks/todo/
+rm -rf /home/ubuntu/code/automation/tasks/failed/task-20211122-001920-10005
+git diff
+vim commands/gtb-config-pull
+mv tasks/done/task-20211122-003525-10006 tasks/todo/
+./scripts/log-tail
+git st
+git diff
+git pull --rebase --autostash
+git diff
+vim commands/gtb-config-pull
+./scripts/service-install task-runner
+mv tasks/done/task-20211122-003525-10006 tasks/todo/
+vim commands/gtb-config-pull
+mv tasks/failed/task-20211122-003525-10006 tasks/todo/
+./scripts/service-restart task-runner
+vim commands/gtb-config-pull
+git status
+mv tasks/failed/task-20211122-003525-10006 tasks/todo/
+git log
+gtb version
+git pull --rebase --autostash
+./scripts/hotreload
+git status
+git pull --rebase --autostash
+./scripts/service-install task-runner
+./scripts/service-install webhook
+./scripts/hotreload
+git pull --rebase --autostash
+mv /home/ubuntu/code/automation/tasks/failed/task-20211122-015241-10009 tasks/todo
+ll /home/ubuntu/gtb/config/buddies-gtb-2022.txt
+ll /home/ubuntu/gtb/config/
+ll /home/ubuntu/gtb/
+gtb config pull
+ll /home/ubuntu/gtb/
+ll /home/ubuntu/gtb/config/
+mv /home/ubuntu/code/automation/tasks/failed/task-20211122-015241-10009 tasks/todo
+cd `gtb config`
+pwd
+git st
+git status
+git log
+ll
+gtb config push
+vim buddies-gtb-2022.txt
+git a .
+git config commit 'chore: testing automation'
+gtb config commit 'chore: testing automation'
+ll
+git status
+git add .
+ll ~/.git/
+ll ~/
+ll
+ll .
+ll .git/
+ll .git/objects/
+chown -R ubuntu:ubuntu .
+sudo chown -R ubuntu:ubuntu .
+gtb config commit 'chore: testing automation'
+gtb config push
+cd ~/code/automation/
+mv /home/ubuntu/code/automation/tasks/failed/task-20211122-015241-10009 tasks/todo/
+git status
+git pull --rebase --autostash
+./scripts/task-stat
+./scripts/task-stat
+vim ./scripts/task-stat
+man tree
+vim ./scripts/task-stat
+./scripts/task-stat
+git status
+git checkout .
+git pull --rebase --autostash
+git pull --rebase --autostash
+gtb version
+git pull --rebase --autostash
+vim commands/gtb-buddy-register
+mv /home/ubuntu/code/automation/tasks/done/task-20211122-034251-10023
+mv /home/ubuntu/code/automation/tasks/done/task-20211122-034251-10023 tasks/todo
+vim commands/gtb-buddy-register
+mv /home/ubuntu/code/automation/tasks/done/task-20211122-034251-10023 tasks/todo
+parallel --max-line-length-allowed
+vim commands/gtb-buddy-register
+vim commands/gtb-buddy-register
+gtb org invite --from-buddies qu.hang
+export GTB_TERM=gtb-2022
+source config/env
+gtb org invite --from-buddies qu.hang
+echo $GTB_TERM
+export GTB_TERM=gtb-2022
+gtb org invite --from-buddies qu.hang
+parallel --citation
+gtb org invite --from-buddies qu.hang
+which gtb
+bash /home/linuxbrew/.linuxbrew/bin/gtb org invite --from-buddies qu.hang
+bash -x /home/linuxbrew/.linuxbrew/bin/gtb org invite --from-buddies qu.hang
+vim /home/linuxbrew/.linuxbrew/bin/gtb
+fg
+parallel --version
+vim ~/gtb/config/buddies-gtb-2022.txt
+bash -x /home/linuxbrew/.linuxbrew/bin/gtb org invite --from-buddies qu.hang
+vim /home/linuxbrew/.linuxbrew/bin/gtb
+fg
+mv /home/ubuntu/code/automation/tasks/done/task-20211122-034251-10023 tasks/todo
+fg
+parallel --version
+bash -x /home/linuxbrew/.linuxbrew/bin/gtb org invite --from-buddies qu.hang
+ulimit -s 65536
+bash -x /home/linuxbrew/.linuxbrew/bin/gtb org invite --from-buddies qu.hang
+ulimit -s
+./scripts/log-tail
+cd code/automation/
+cd code/automation/
+./commands/scripts/log-tail
+bash -x /home/linuxbrew/.linuxbrew/bin/gtb org invite --from-buddies qu.hang
+export GTB_TERM=gtb-2022
+bash -x /home/linuxbrew/.linuxbrew/bin/gtb org invite --from-buddies qu.hang
+gtb b list
+gtb b list --raw
+gtb b list --raw | env_parallel --linebuffer --colsep ' ' --bar echo "$GTB_ORG" "{5}" 'direct_member' "{1}"
+source `which env_parallel.bash`
+gtb b list --raw | env_parallel --linebuffer --colsep ' ' --bar echo "$GTB_ORG" "{5}" 'direct_member' "{1}"
+echo qu.hang | env_parallel --linebuffer --colsep ' ' --bar echo "{1}"
+echo qu.hang | env_parallel --linebuffer --colsep ' ' echo "{1}"
+echo qu.hang | env_parallel --linebuffer echo "{1}"
+echo qu.hang | env_parallel echo "{1}"
+echo qu.hang | parallel echo "{1}"
+echo qu.hang | env_parallel echo "{1}"
+man bash
+echo qu.hang | env_parallel echo "{1}"
+echo qu.hang | env_parallel --pipe echo "{1}"
+echo qu.hang | parallel --pipe echo "{1}"
+echo qu.hang | parallel echo "{1}"
+man parallel
+man env_parallel
+man parallel
+man parallel_tutorial
+man env_parallel
+man parallel
+echo qu.hang | parallel echo "{1}"
+echo qu.hang | env_parallel echo "{1}"
+which env_parallel
+vim /home/linuxbrew/.linuxbrew/bin/env_parallel
+vim /home/linuxbrew/.linuxbrew/bin/env_parallel
+echo qu.hang | bash /home/linuxbrew/.linuxbrew/bin/env_parallel echo "{1}"
+echo qu.hang | bash --login /home/linuxbrew/.linuxbrew/bin/env_parallel echo "{1}"
+echo '. `which env_parallel.bash`' >> $HOME/.bashrc
+vim ~/.bashrc
+echo qu.hang | bash --login /home/linuxbrew/.linuxbrew/bin/env_parallel echo "{1}"
+vim /home/linuxbrew/.linuxbrew/bin/env_parallel
+which env_parallel.bash
+vim /home/linuxbrew/.linuxbrew/bin/env_parallel.bash
+type env_parallel
+fg
+gtb b list --raw | env_parallel --linebuffer --colsep ' ' --bar echo "$GTB_ORG" "{5}" 'direct_member' "{1}"
+bash -x /home/linuxbrew/.linuxbrew/bin/gtb org invite --from-buddies qu.hang
+./scripts/log-tail
+which env_parallel
+which env_parallel.bash
+bash -x /home/linuxbrew/.linuxbrew/bin/gtb org invite --from-buddies qu.hang
+type "true"
+parallel "$@"
+type "$@"
+type "true"
+vim `which env_parallel.bash`
+vim ~/test-env-size.sh
+bash -x ~/test-env-size.sh true
+type ture
+type true
+bash -x /home/linuxbrew/.linuxbrew/bin/gtb org invite --from-buddies qu.hang
+vim /home/linuxbrew/.linuxbrew/bin/env_parallel.bash
+vim -d ~/env_parallel.bash /home/linuxbrew/.linuxbrew/bin/env_parallel.bash
+diff ~/env_parallel.bash /home/linuxbrew/.linuxbrew/bin/env_parallel.bash
+echo $?
+vim test.sh
+bash test.sh
+bash test.sh
+which gtb
+vim `which gtb`
+vim `which gtb`
+bash -x /home/linuxbrew/.linuxbrew/bin/gtb org invite --from-buddies qu.hang
+vim `which gtb`
+bash -x /home/linuxbrew/.linuxbrew/bin/gtb org invite --from-buddies qu.hang
+parallel --max-line-length-allowed
+parallel --number-of-cpus
+parallel --number-of-cores
+perl -e 'print("true "."x"x10000000);' | bash
+echo $?
+vim /home/linuxbrew/.linuxbrew/bin/env_parallel.bash
+bash -x /home/linuxbrew/.linuxbrew/bin/gtb org invite --from-buddies qu.hang
+vim /home/linuxbrew/.linuxbrew/bin/env_parallel.bash
+set | wc -c
+env | wc -c
+set
+echo $((128 * 1024))
+vim /home/linuxbrew/.linuxbrew/bin/env_parallel.bash
+bash -x /home/linuxbrew/.linuxbrew/bin/gtb org invite --from-buddies qu.hang
+echo $((128 * 1024))
+bash --version
+sudo apt search bash
+brew search bash
+brew info bash
+brew versions bash
+brew version bash
+brew
+brew --version
+brew help search
+brew search /bash$/
+brew search /^bash$/
+brew help info
+bash --version
+brew install bash@4.4.23
+brew install bash
+bash --version
+which bash
+bash --version
+vim ~/.profile
+bash
+vim /etc/profile
+bash --version
+bash --version
+bash
+bash --login
+bash -l
+bash -x
+bash -x
+exit
+echo exit | strace bash -li |& grep '^open'
+exit
+echo exit | strace bash -li |& grep '^open'
+exit
+echo exit | strace bash -li |& grep '^open' | grep 'bash\|profile'
+exit
+echo exit | strace bash -li |& grep '^open' | grep -v linuxbrew | grep 'bash\|profile'
+exit
+echo exit | strace bash -li |& grep '^open' | grep -v linuxbrew | grep 'bash\|profile'
+exit
+echo exit | strace bash -li |& grep '^open' | grep -v linuxbrew | grep 'bash\|profile'
+grep '\. ' /etc/profile
+grep '\. ' "/etc/bash.bashrc"
+exit
+echo exit | strace bash -li
+exit
+echo exit | strace bash -li
+exit
+echo exit | strace bash -li |& grep '^open' | grep -v linuxbrew | grep 'bash\|profile'
+exit
+echo exit | strace bash -li |& grep '^open' | grep -v linuxbrew | grep 'bash\|profile' | cut -d'"' -f2
+exit
+echo exit | strace bash -li |& grep '^open' | grep -v linuxbrew | grep 'bash\|profile' | cut -d'"' -f2 | sort -u
+which bash
+exit
+grep '\. ' $(echo exit | strace bash -li |& grep '^open' | grep -v linuxbrew | grep 'bash\|profile' | cut -d'"' -f2 | sort -u)
+exit
+grep '\. ' $(echo exit | strace bash -li |& grep '^open' | grep -v 'linuxbrew\|history' | grep 'bash\|profile' | cut -d'"' -f2 | sort -u)
+exit
+grep '\. ' $(echo exit | strace bash -li |& grep '^open' | grep -v 'linuxbrew\|history\|bash_completion' | grep 'bash\|profile' | cut -d'"' -f2 | sort -u)
+ll /etc/profile
+sudo vi /etc/profile
+sudo vi /etc/profile
+exit
+echo exit | strace bash -li |& grep '^open' | grep -v 'linuxbrew\|history\|bash_completion' | grep 'bash\|profile' | cut -d'"' -f2 | sort -u
+sudo vi /etc/bash.bashrc
+sudo vi /etc/bash.bashrc
+vim ~/.bashrc
+which env_parallel.bash
+which env_parallel.bash
+bash which env_parallel.bash
+bash which parallel
+echo $PATH
+ll /home/linuxbrew/.linuxbrew/bin
+ll /home/linuxbrew/.linuxbrew/bin/env_parallel
+ll /home/linuxbrew/.linuxbrew/bin/env_paralle*
+locate env_parallel.bash
+which env_parallel.bash
+echo $(echo $PATH)
+echo $(echo $PATH; which env_parallel.bash)
+/usr/bin/env bahs
+ll /bin/bash
+/usr/bin/env bash
+vim ~/.bashrc
+export GTB_TERM=gtb-2022
+bash -x /home/linuxbrew/.linuxbrew/bin/gtb org invite --from-buddies qu.hang
+vim /home/linuxbrew/.linuxbrew/bin/gtb
+bash -x /home/linuxbrew/.linuxbrew/bin/gtb org invite --from-buddies qu.hang
+set | wc -c
+echo $((128 * 1024))
+vim /home/linuxbrew/.linuxbrew/bin/gtb
+bash -x /home/linuxbrew/.linuxbrew/bin/gtb org invite --from-buddies qu.hang
+set | wc -c
+vim /home/linuxbrew/.linuxbrew/bin/gtb
+bash -x /home/linuxbrew/.linuxbrew/bin/gtb org invite --from-buddies qu.hang
+bash -x /home/linuxbrew/.linuxbrew/bin/gtb org invite --from-buddies qu.hang
+bash -x /home/linuxbrew/.linuxbrew/bin/gtb org invite --from-buddies qu.hang
+echo $((128 * 1024))
+vim /usr/local/bin/gtb
+which gtb
+vim `which gtb`
+bash -x /home/linuxbrew/.linuxbrew/bin/gtb org invite --from-buddies qu.hang
+getconf ARG_MAX
+echo $MAX_ARG_STRLEN
+bash -x /home/linuxbrew/.linuxbrew/bin/gtb org invite --from-buddies qu.hang
+bash -x /home/linuxbrew/.linuxbrew/bin/gtb org invite --from-buddies qu.hang
+bash -x /home/linuxbrew/.linuxbrew/bin/gtb org invite --from-buddies qu.hang
+bash -x /home/linuxbrew/.linuxbrew/bin/gtb org invite --from-buddies qu.hang
+brew info parallel
+bash -x /home/linuxbrew/.linuxbrew/bin/gtb org invite --from-buddies qu.hang
+bash -x /home/linuxbrew/.linuxbrew/bin/gtb org invite bie.xinging
+bash -x /home/linuxbrew/.linuxbrew/bin/gtb org invite bie.xingxing
+perl --version
+which parallel
+vim `which parallel`
+vim `which parallel`
+vim `which parallel`
+vim `which parallel`
+vim `which parallel`
+vim `which parallel`
+fg
+fg
+fg
+vim `which parallel`
+source ~/.bashrc
+vim ~/.bashrc
+source ~/.bashrc
+echo $((83611 -117))
+cat ~/.bashrc
+set | wc -c
+set
+set | less
+env_parallel --session
+set
+set | wc -c
+env_parallel --end-session
+env_parallel --session
+ll
+diff ~/env_parallel.bash /home/linuxbrew/.linuxbrew/bin/env_parallel.bash
+vim /home/linuxbrew/.linuxbrew/bin/env_parallel.bash
+vim /home/linuxbrew/.linuxbrew/bin/env_parallel.bash
+diff ~/env_parallel.bash /home/linuxbrew/.linuxbrew/bin/env_parallel.bash
+env_parallel --session
+parallel --max-line-length-allowed
+parallel --max-line-length-allowed
+ulimit -S -s unlimited
+sudo ulimit -S -s unlimited
+parallel --max-line-length-allowed
+echo $XDG_CACHE_HOME
+echo $PARALLEL_HOME
+ll ~/.parallel/
+cd ~/.parallel/
+ll
+tree .
+cat tmp/sshlogin/ip-172-31-39-24/linelen
+rm -rf tmp/
+ll
+cat runs-without-willing-to-cite
+cat tmp/sshlogin/ip-172-31-39-24/linelen
+gtb org invite --from-buddies qu.hang
+export GTB_TERM=gtb-2022
+gtb org invite --from-buddies qu.hang
+gtb b list
+gtb org invite --from-buddies qu.hang --debug
+gh auth status
+gh config set git_protocol ssh
+gh auth status
+gtb org invite --from-buddies qu.hang --debug
+gh auth login
+gtb org invite --from-buddies qu.hang --debug
+cd code/automation/
+./scripts/log-tail
+gtb org invite --from-buddies --debug wang.xiongmao
+gtb org invite --from-buddies --debug wang.xiongmao
+vim `which gtb`
+fg
+diff ~/env_parallel.bash /home/linuxbrew/.linuxbrew/bin/env_parallel.bash
+ll
+cd
+ll
+mv env_parallel.bash code/
+ll
+ll code/
+cd code/automation/
+ll
+git status
+git diff
+cat test.sh
+rm test.sh
+echo abc
+echo abc | sed 's/b/\n/g'
+echo PS1='$ '
+export PS1='$ '
+echo abc | sed 's/b/\n/g'
+source ~/.bashrc
+./scripts/task-stat
+grep -R register tasks/
+cat tasks/done/task-20211122-034251-10023/args
+cat tasks/done/task-20211122-034251-10023/cmd
+cat tasks/done/task-20211122-034251-10023/env
+cat tasks/done/task-20211122-034251-10023/output
+cd code/automation/
+mv tasks/done/task-20211122-034251-10023 tasks/todo/
+sudo ulimit -S -s unlimited
+ulimit -S -s unlimited
+which gtb
+vim `which gtb`
+./scripts/log-tail
+vim -d ~/code/gtb `which gtb`
+ll ~/code/gtb `which gtb`
+man ls
+ll -L ~/code/gtb `which gtb`
+ll -hL ~/code/gtb `which gtb`
+cp ~/code/gtb /home/linuxbrew/.linuxbrew/bin/
+vim ~/code/gtb `which gtb`
+cd code/automation/
+./scripts/log-tail
+vim -d ~/code/gtb `which gtb`
+gtb org invite --from-buddies --debug wang.xiongmao
+export PS1='$ '
+export GTB_TERM=gtb-2022
+gtb org invite --from-buddies --debug wang.xiongmao
+gtb org invite --from-buddies wang.xiongmao
+gtb org invite --from-buddies wang.xiongmao
+export GTB_TERM=gtb-2022
+gtb org invite --from-buddies wang.xiongmao
+gtb org invite --from-buddies wang.xiongmao
+gtb org invite --from-buddies wang.xiongmao
+gtb org invite --from-buddies wang.xiongmao
+vim ~/bin/test-gtb
+vim ~/bin/test-gtb
+chmod +x ~/bin/test-gtb
+test-gtb
+gtb org invite --from-buddies wang.xiongmao; test-gtb
+gtb org invite --from-buddies wang.xiongmao; test-gtb
+shopt -q login_shell && echo 'Login shell' || echo 'Not login shell'
+gtb org invite --from-buddies wang.xiongmao; test-gtb
+gtb org invite --from-buddies wang.xiongmao; test-gtb
+vim `which gtb`
+mv tasks/done/task-20211122-034251-10023 tasks/todo/
+pwd
+cd code/automation/
+mv tasks/done/task-20211122-034251-10023 tasks/todo/
+fg
+mv tasks/done/task-20211122-034251-10023 tasks/todo/
+./scripts/log-tail
+vim ./scripts/log-tail
+./scripts/log-tail -a
+vim ./scripts/log-tail
+cat ./scripts/log-tail
+journalctl -ef -n10 -u task-runner.service -u webhook.service
+journalctl -ea -n10 -u task-runner.service -u webhook.service
+git status
+git diff
+git status
+vim commands/gtb-buddy-register
+git pull --rebase --autostash
+fg
+mv tasks/done/task-20211122-034251-10023 tasks/todo/
+fg
+gtb org invite --from-buddies wang.xiongmao
+fg
+gtb org invite --from-buddies wang.xiongmao
+fg
+mv tasks/done/task-20211122-034251-10023 tasks/todo/
+mv tasks/done/task-20211122-034251-10023 tasks/todo/
+fg
+source ~/.bashrc
+mv tasks/done/task-20211122-034251-10023 tasks/todo/
+git st
+./scripts/log-tail
+cd code/automation/
+cd code/automation/
+mv tasks/done/task-20211122-034251-10023 tasks/todo/
+git status
+git diff
+git checkout .
+git pull --rebase --autostash
+git pull --rebase --autostash
+mv tasks/done/task-20211122-034251-10023 tasks/todo/
+git pull --rebase --autostash
+mv tasks/done/task-20211122-034251-10023 tasks/todo/
+./scripts/log-tail
+./scripts/task-stat
+export GTB_TERM=gtb-2022
+git pull --rebase --autostash
+git show
+git show
+./scripts/service-install
+./scripts/service-install task-runner
+find ./tasks -type d -name "task-*-$TASK_ID*"
+find ./tasks -type d -name "task-*-$10048*"
+find ./tasks -type d -name "task-*-10048*"
+find ./tasks -type d -name "task-*-1004*"
+find ./tasks -type d -name "task-*-10048*"
+find ./tasks -type d -name "task-*-10048\>*"
+find ./tasks -type d -name "task-*-10048\b*"
+find ./tasks -type d -name "task-*-10048\b"
+find ./tasks -type d -name "task-*-10048\>"
+man find
+find ./tasks -type d -regex "task-*-10048\>"
+find ./tasks -type d -regex "task-*-10048"
+find ./tasks -type d -regex ".*task-*-10048"
+find ./tasks -type d -regex "*task-*-10048"
+find ./tasks -type d -regex "./**/task-*-10048"
+find ./tasks -type d -regex "./**/task-*-10048"
+man find
+find ./tasks -type d -regex "tasks/failed/task-20211123-114437-10048"
+find ./tasks -type d -regex "./tasks/failed/task-20211123-114437-10048"
+find ./tasks -type d -regex "./tasks/failed/task-.*-10048"
+find ./tasks -type d -regex "./tasks/failed/task-*-10048"
+find ./tasks -type d -regex "./tasks/failed/task-.*-10048"
+find ./tasks -type d -regex "./tasks/*/task-.*-10048"
+find ./tasks -type d -regex "./tasks/.*/task-.*-10048"
+find ./tasks -type d -regex "./tasks/.*/task-.*-10048\b"
+find ./tasks -type d -regex "./tasks/.*/task-.*-\b10048\b"
+find ./tasks -type d -regex "./tasks/.*/task-.*-\b10048\b"
+git pull --rebase --autostash
+./scripts/task-rerun 10048
+cd code/automation/
+./scripts/task-rerun 10053
+./scripts/task-rerun 10058
+./scripts/task-rerun 10065
+gtb org invite --from-buddies pu.yunqiang
+gtb org invite --from-buddies wang.dengyu
+gtb org invite --from-buddies dengyu.wang
+./scripts/log-tail
+./scripts/log-less | grep ❌
+./scripts/log-less | gre invite | less
+./scripts/log-less | grep invite | less
+cat ./scripts/log-less
+journalctl --no-pager -u task-runner.service -u webhook.service
+journalctl --no-pager -u task-runner.service -u webhook.service | grep ❌
+journalctl --no-pager -u task-runner.service -u webhook.service | rep 10048
+journalctl --no-pager -u task-runner.service -u webhook.service | grep 10048
+./scripts/log-less
+vim ./scripts/log-less
+./scripts/log-less
+vim ./scripts/log-less
+./scripts/log-less
+journalctl --no-pager -u task-runner.service -u webhook.service | grep '10048\|to learn more'
+./scripts/task-stat
+cat tasks/failed/task-20211123-160913-10117/cmd
+cat tasks/failed/task-20211123-160913-10117/output
+cat tasks/failed/task-20211123-160913-10117/exit_code
+./scripts/task-rerun 10117
+./scripts/log-less
+./scripts/task-stat
+./scripts/task-stat
+gtb version
+./scripts/log-less
+ll
+./scripts/task-stat
+rm -rf ./tasks/failed/task-*
+./scripts/task-stat
+git diff
+git checkout .
+git status
+journalctl -ea -u task-runner.service -u webhook.service
+journalctl -ea -n2000 -u task-runner.service -u webhook.service
+journalctl -ea -n5000 -u task-runner.service -u webhook.service
+journalctl -ea -n8000 -u task-runner.service -u webhook.service
+journalctl -ea -n10000 -u task-runner.service -u webhook.service
+ll
+mkdir test
+touch test/abc
+rm -r test
+man rm
+mkdir test
+touch test/abc
+rm -ri test
+mkdir test
+touch test/abc
+rm -rI test
+git pull --rebase --autostash
+./scripts/task-stat
+fg
+./scripts/log-tail
+seq 1 10 | sed '3d' | paste -sd' ' -
+seq -s' ' -t'\n' 1 10 > input.txt
+seq --help
+seq -s' ' 1 10
+seq -s' ' 1 10 > input.txt
+cat input.txt | tr ' ' '\n' | sed 2d | paste -sd' ' - > output.txt
+cat output.txt
+export PS1='$ '
+seq -s' ' 1 10 > input.txt
+cat input.txt | tr ' ' '\n' | sed "${N}d" | paste -sd' ' - > output.txt
+cat output.txt
+cat input.txt
+cat input.txt | awk '{NF==2 print $NF}'
+cat input.txt | awk 'NF==2 {print $NF}'
+cat input.txt | awk 'NF==10 {print $NF}'
+cat input.txt | awk '{for (i=1; i<=NF; i++) print $i}'
+cat input.txt | awk '{for (i=1; i<=NF; i++) if (i!=2) print $i}'
+cat input.txt | awk -v N=$N '{for (i=1; i<=NF; i++) if (i!=N) print $i}'
+cat input.txt | awk -v N=$N '{for (i=1; i<=NF; i++) if (i!=N) print $i}'
+cat input.txt | awk -v N=$N '{for (i=1; i<=NF; i++) if (i!=N) print $i}'
+man awk
+cat input.txt | awk -v N=$N 'BEGIN{RS=' '} {print}'
+cat input.txt | awk -v N=$N 'BEGIN{RS=" "} {print}'
+cat input.txt | awk -v N=$N 'BEGIN{RS=" "} {print NR}'
+cat input.txt | awk -v N=$N 'BEGIN{RS=" "} NR!=N {print NR}'
+cat input.txt | awk -v N=$N 'BEGIN{RS=" "} NR!=N {print NR}'
+cat input.txt | awk -v N=$N 'BEGIN{RS=" ";OFS=" "} NR!=N {print}'
+cat input.txt | awk -v N=$N 'BEGIN{RS=" ";ORS=" "} NR!=N {print}'
+cat input.txt | awk -v N=$N 'BEGIN{RS=" ";ORS=" "} NR!=N {print}' | wc -c
+cat input.txt | awk -v N=$N 'BEGIN{RS=" ";ORS=" "} NR!=N {print}' > output2.txt
+diff output.txt output2.txt
+cat input.txt | awk -v N=$N 'BEGIN{RS=" ";ORS=" "} NR!=N {print}' | grep --color ' $'
+cat input.txt | awk -v N=$N 'BEGIN{RS=" ";ORS=" "} NR!=N {print}' | grep --color ' \$'
+cat input.txt | awk -v N=$N 'BEGIN{RS=" ";ORS=" "} NR!=N {print}'
+cat input.txt | awk -v N=$N 'BEGIN{RS=" ";ORS=" "} NR!=N {print}' | grep --color=always
+cat input.txt | awk -v N=$N 'BEGIN{RS=" ";ORS=" "} NR!=N {print}' | grep --color=always ' '
+cat input.txt | awk -v N=$N 'BEGIN{RS=" ";ORS=" "} NR!=N {print}' | grep --color=always '3'
+cat input.txt | awk -v N=$N 'BEGIN{RS=" ";ORS=" "} NR!=N {print}' | tr ' ' 'X'
+cat input.txt | tr ' ' '\n' | sed "${N}d" | paste -sd' ' - | tr ' ' 'X'
+cat input.txt | awk -v N=$N 'BEGIN{RS=" ";ORS=" "} NR!=N {print}'
+seq 1 10 | sed '3d' | paste -sd' ' -
+seq 1 10 | sed '3d' | paste -sd' ' -
+seq 1 10 | awk -v N=$N '{for (i=1; i<=NF; i++) if (i!=N) print $i}'
+seq 1 10 | awk -v N=$N '{for (i=1; i<=NF; i++) if (i!=N) print $i}' | paste -sd' ' -
+seq 1 10 | awk -v N=$N 'BEGIN{RS=" ";ORS=" "} NR!=N {print}'
+seq 1 10 | awk -v N=$N 'BEGIN{RS=" ";ORS=" "} NR!=N {print}'
+cat input.txt | awk -v N=$N 'BEGIN{RS=" ";ORS=" "} NR!=N {print}'
+cat input.txt | tr ' ' '\n' | sed "${N}d" | paste -sd' ' -
+cat input.txt | awk -v N=$N '{for (i=1; i<=NF; i++) if (i!=N) print $i}' | paste -sd' ' -
+cat input.txt | awk -v N=$N 'BEGIN{RS=" ";ORS=" "} NR!=N {print}'
+seq -s' ' 1 10 > input.txt
+cat input.txt | tr ' ' '\n' | sed "${N}d" | paste -sd' ' -
+cat input.txt | awk -v N=$N '{for (i=1; i<=NF; i++) if (i!=N) print $i}' | paste -sd' ' -
+cat input.txt | awk -v N=$N 'BEGIN{RS=" ";ORS=" "} NR!=N {print}'
+export PS1='$ '
+rm input.txt output2.txt output.txt
+l
+seq -s' ' 1 10 > input.txt
+cat input.txt | tr ' ' '\n' | sed "${N}d" | paste -sd' ' -
+cat input.txt | awk -v N=$N '{for (i=1; i<=NF; i++) if (i!=N) print $i}' | paste -sd' ' -
+cat input.txt | awk -v N=$N 'BEGIN{RS=" ";ORS=" "} NR!=N {print}'
+seq -s' ' 1 10 > input.txt
+cat input.txt
+cat input.txt | tr ' ' '\n' | sed "${N}d" | paste -sd' ' -
+cat input.txt | awk -v N=$N '{for (i=1; i<=NF; i++) if (i!=N) print $i}' | paste -sd' ' -
+cat input.txt | awk -v N=$N 'BEGIN{RS=" ";ORS=" "} NR!=N {print}'
+echo a  b | tr -s ' '
+echo a    ,,,b | tr -s ' ,'
+    echo "$*" | tr ' ' ',' | tr -s',' | sed 's/,/\n/g'
+echo 'a , b,  c, ,,,d' | tr ' ' ',' | tr -s',' | sed 's/,/\n/g'
+echo 'a , b,  c, ,,,d' | tr ' ' ',' | tr -s ',' | sed 's/,/\n/g'
+set 'a , b,  c, ,,,d'
+echo $*
+echo $*
+echo "$*" | tr ' ' ',' | tr -s ',' | sed 's/,/\n/g'
+set '张三 李四   王五'
+echo "$*" | tr ' ' ',' | tr -s ',' | sed 's/,/\n/g'
+echo $*
+set '张三, 李四 ,,  王五,小六 李天王'
+set '张三, 李四 ,,  王五,小六 李天王' | tr ',' ' '
+set '张三, 李四 ,,  王五,小六 李天王'
+echo $@ | tr ',' ' '
+echo $@ | tr ',' ' ' | tr -s ' '
+echo $@ | tr ',' ' ' | tr -s ' '
+set
+set ''
+echo $*
+echo $@ | tr ',' ' ' | tr -s ' '
+echo $@ | tr ',' ' ' | tr -s ' ' | wc -c
+echo $#
+echo $@ | tr ',' ' ' | tr -s ' '
+set $(echo $@ | tr ',' ' ' | tr -s ' ' )
+echo $#
+echo $@
+echo ${@:2}
+echo ${@:3}
+brew version
+gtb version
+cd code/automation/
+git pull --rebase --autostash
+git pull --rebase --autostash
+brew search gnu-sed
+man sed
+gsed
+brew install gnu-sed
+gsed
+brew info gnu-sed
+man sed
+ll /home/linuxbrew/.linuxbrew/Cellar/gnu-sed/4.8
+ll /home/linuxbrew/.linuxbrew/Cellar/gnu-sed/4.8/bin/
+brew uninstall gnu-sed
+ll
+sed -i.bak '/sldfjalsjfl/d' README.md
+ll
+git status
+rm README.md.bak
+git status
+git pull --rebase --autostash
+cd code/automation/
+ll
+gtb upgrade --yes
+brew upate
+brew update
+gtb upgrade --yes
+./scripts/service-install task-runner
+./scripts/service-install webhook
+git pull --rebase --autostash
+./scripts/service-install webhook
+./scripts/log-tail
+./scripts/log-tail
+./scripts/service-stop
+./scripts/service-stop webhook
+./scripts/service-install
+./scripts/service-install webhook
+./scripts/service-restart
+./scripts/service-restart webhook
+./scripts/hotreload
+gtb version
+./scripts/task-stat
+cat tasks/failed/task-20211123-222331-10137-gtb-buddy-bind-buddee/cmd
+cat tasks/failed/task-20211123-222331-10137-gtb-buddy-bind-buddee/args
+cat tasks/failed/task-**-gtb-buddy-bind-buddee/args
+cat tasks/failed/task-**-gtb-buddy-bind-buddee/args  | grep '\t'
+cat tasks/failed/task-**-gtb-buddy-bind-buddee/args  | tr ' ' 'X'
+cd code/automation/
+cd code/automation/
+./scripts/task-stat
+cat tasks/failed/task-**-gtb-buddy-bind-buddee/cmd  | tr ' ' 'X'
+git pull --rebase --autostash
+./scripts/task-rerun 10147
+bash -x ./scripts/task-rerun 10147
+find ./tasks -type d -regex './tasks/.*/task-.*-\b10147\b'
+find ./tasks -type d -regex './tasks/.*/task-.*-\b10147\b.*'
+git pull --rebase --autostash
+./scripts/task-rerun 10147
+./scripts/task-stat
+rm -rf tasks/failed/task-*
+./scripts/task-stat
+gtb b map list
+export GTB_TERM=gtb-2022
+gtb b map list
+gtb b map list wang.xiongmao
+./scripts/task-stat
+./scripts/log-tail
+./scripts/log-tail
+cd code/automation/
+ll
+cd code/automation/
+ll
+cat commands/gtb-buddy-register
+gtb buddy show zhang.lintao
+export GTB_TERM=gtb-2022
+gtb buddy show zhang.lintao
+./scripts/task-rerun 10152
+./scripts/task-stat
+cat tasks/failed/task-20211124-105429-10155-gtb-buddy-map-buddee/args
+./scripts/task-stat
+gtb b map list
+gtb b map list li.yisong
+rm -rf tasks/failed/task-*
+./scripts/task-stat
+cat tasks/failed/task-20211124-134803-10165-gtb-buddy-map-buddee/args
+./scripts/task-stat
+gtb b list pu.yunqiang
+gtb b map list
+gtb b map list pu.yunxing
+gtb b map list pu.yunqiang
+gtb b show pu.yunqiang
+gtb b map list pu.yunqiang
+gtb b map list han.hun
+gtb b map list han.kun
+git pull --rebase --autostash
+./scripts/hotreload
+./scripts/task-rerun 10174
+./scripts/task-remove 10174
+gtb b list
+date "+%Y%m%d-%H%M%S"
+date "+%Y%m%d-%H%M%S"
+gtb date now
+man date
+info date
+date --date='3 days'
+man date
+date --date='3 days' --iso-8601
+date --date='3 days' --iso-8601=seconds
+man date
+gdate
+brew search coreutils
+brew info coreutils
+brew install "/home/linuxbrew/.linuxbrew/opt/coreutils/libexec/gnubin:$PATH"
+brew install coreutils
+gdate
+brew info coreutils
+./scripts/task-stat
+cat tasks/failed/task-20211124-170410-10178-submit-assignment/args
+gtb version
+git pull --rebase --autostash
+./scripts/hotreload
+./scripts/log-tail
+git pull --rebase --autostash
+./scripts/task-rerun 10183
+rm -rf ./tasks/done/task-20211124-213112-10183-submit-assignment/assignment-todo-cli-review
+./scripts/log-tail
+cd code/automation/
+cd code/automation/
+git pull --rebase --autostash
+./scripts/hotreload
+gtb b map list | cut -d' ' -f2 | sort | uniq -c | sort -n
+export GTB_TERM=gtb-2022
+gtb b map list | cut -d' ' -f2 | sort | uniq -c | sort -n
+gtb b map list
+gtb b map list --raw | cut -d' ' -f2 | sort | uniq -c | sort -n
+gtb b map list wang.yue
+gtb b map list wang.yue --raw
+git pull --rebase --autostash
+git pull --rebase --autostash
+vim commands/submit-assignment
+gtb buddy mapping list --raw --fields 1 "wang.yue" | paste -sd' ' -
+buddy_fullnames=$(gtb buddy mapping list --raw --fields 1 "wang.yue" | paste -sd' ' -)
+fg
+./scripts/task-rerun 10187
+vim commands/submit-assignment
+./scripts/task-rerun 10187
+fg
+vim `which gtb`
+./scripts/task-rerun 10187
+fg
+./scripts/task-rerun 10187
+fg
+vim commands/submit-assignment
+./scripts/task-rerun 10187
+fg
+vim `which gtb`
+./scripts/task-rerun 10187
+fg
+./scripts/task-rerun 10187
+gtb trello member id hu.xuanguang wang.danping 2>/dev/null
+gtb term
+gtb trello member id hu.xuanguang wang.danping --from-buddies 2>/dev/null
+gtb trello member id hu.xuanguang wang.danping --from-buddies
+cd code/automation/
+ll
+cd code/automation/
+vim `which gtb
+vim `which gtb`
+./scripts/task-rerun 10187
+fg
+./scripts/task-rerun 10187
+gtb trello member id hu.xuanguang wang.danping --debug
+export GTB_TERM=gtb-2022
+gtb trello member id hu.xuanguang wang.danping --debug
+gtb trello member id hu.xuanguang wang.danping --debug --from-buddies
+fg
+fg
+gtb trello member id hu.xuanguang wang.danping --debug --from-buddies
+fg
+gtb trello member id hu.xuanguang wang.danping --debug --from-buddies
+fg
+vim commands/submit-assignment
+git status
+git diff
+git checkout .
+gtb version
+./scripts/task-rerun 10188
+./scripts/log-tail
+gtb version
+git pull --rebase --autostash
+./scripts/task-rerun 10187
+vim commands/submit-assignment
+./scripts/task-rerun 10187
+vim commands/submit-assignment
+./scripts/task-rerun 10187
+fg
+./scripts/task-rerun 10187
+fg
+./scripts/task-rerun 10187
+./scripts/task-rerun 10187
+fg
+./scripts/task-rerun 10187
+fg
+git st
+git status
+git diff
+./scripts/task-rerun 10187
+fg
+git diff
+git checkout .
+git pull --rebase --autostash
+./scripts/task-rerun 10187
+set -- a b c
+echo ${@:2}
+./scripts/task-rerun 10187
+git status
+git pull --rebase --autostash
+./scripts/log-tail
+cd code/automation/
+ll
+./scripts/log-less
+vim /home/ubuntu/code/automation/tasks/done/task-20211123-132051-10085
+cd code/automation/
+vim /home/ubuntu/code/automation/tasks/done/task-20211123-132051-10085
+./scripts/task-rerun 10085
+./scripts/task-rerun 10085
+./scripts/log-tail
+./scripts/log-less
+cd code/automation/
+realpath .
+which realpath
+ll ~/.cache/
+cd code/automation/
+cd code/automation/
+./scripts/task-stat
+cat tasks/failed/task-20211125-105136-10201-gtb-buddy-map-buddee/args
+gtb b map list zhang.lintao
+export GTB_TERM=gtb-2022
+gtb b map list zhang.lintao
+gtb b map list lintao.zhang
+gtb b list zhang.lintao
+gtb b map list lintao.zhang
+gtb b map list zhang.lintao
+./scripts/task-stat
+./scripts/task-rerun 10205
+gtb upgrade
+rm -rf /home/ubuntu/.cache/Homebrew/downloads/10e34065d8dc0632870dd164a1de4cd6e2ca8415eb1c85dcad4d78063495db1d--git--2.34.1.x86_64_linux.bottle.tar.gz
+gtb upgrade
+./scripts/task-stat
+./scripts/task-rerun 10208
+cat tasks/done/task-20211125-172518-10204-submit-assignment/args
+cat commands/gtb-buddy-map-buddee
+./scripts/log-tail
+gtb student org invite create --buddy "$@"
+gtb student org invite create --buddy zhou.zhixuan
+echo $/
+gtb student org invite create --buddy zhou.zhixuan
+echo $?
+bash -x `which gtb` student org invite create --buddy zhou.zhixuan
+gtb student org invite create --buddy zhou.zhixuan --debug
+assert_trainers_file_exists
+./scripts/task-stat
+cat tasks/done/task-20211125-142124-10202-gtb-buddy-map-buddee/output
+cat tasks/done/task-20211125-142124-10206-gtb-buddy-map-buddee/output
+cat tasks/done/task-20211126-102712-10206-gtb-buddy-map-buddee/output
+cat tasks/failed/task-20211126-101800-10205-gtb-upgrade/output
+grep --help
+cd gtb/
+ll
+cd repos/
+ll
+git clone git@github.com:GTB-training/util.git
+cd util/
+./gtb student org invite create --buddy zhou.zhixuan --debug
+export GTB_TERM=gtb-2022
+./gtb student org invite create --buddy zhou.zhixuan --debug
+vim ~/.bashrc
+echo $GTB_TERM
+cd code/automation/
+ll
+cd ~/gtb/repos/util/
+ll
+./gtb student org invite create --buddy zhou.zhixuan --debug
+git l
+git l
+git log
+git log --oneline
+git checkout  7df7859
+./gtb student org invite create --buddy zhou.zhixuan --debug
+git log --oneline
+git log --oneline --al
+git log --oneline --all
+git checkout  c9cb425
+./gtb student org invite create --buddy zhou.zhixuan --debug
+vim gtb
+git diff
+./gtb student org invite create --buddy zhou.zhixuan --debug
+./gtb student org invite cancel --buddy zhou.zhixuan --debug
+./scripts/log-less
+./scripts/task-rerun 10208
+z ~/code/automation/
+./scripts/task-rerun 10208
+cd ~/code/automation/
+./scripts/task-rerun 10208
+git st
+back
+git status
+git diff
+cd ~/gtb/repos/util/
+git diff
+git switch master
+git checkout .
+git switch master
+git log --oneline --all
+vim ~/code/automation/config/env
+./scripts/task-rerun 10208
+cd ~/code/automation/
+./scripts/task-rerun 10208
+./scripts/task-stat
+cat tasks/failed/task-20211125-105136-10201-gtb-buddy-map-buddee/args
+gtb b map list --by-buddee
+gtb b map list --by-buddee --raw
+gtb b map list --by-buddee --raw | gtb cuts 1,2-
+gtb b map list --by-buddee --raw --fields 1,2- | gtb cuts 1,2-
+gtb b map list --by-buddee --raw --fields 1,3- | gtb cuts 1,2-
+gtb b map list --by-buddee --raw --fields 1,3-
+gtb b map list --raw --fields 1,3- | head
+gtb b map list --raw --fields 1,3- | head -1 | xargs -I_ gtb st org invite create --buddy _
+gtb b map list --raw --fields 1,3- | head -1
+man xargs
+gtb b map list --raw --fields 1,3- | head -1 | xargs --verbose echo
+gtb st org invite cancel --debug
+gtb b map list --raw --fields 1,3- | head -1 | xargs --verbose gtb st org invite create --buddy
+gtb b map list --raw --fields 1,3- | xargs --verbose gtb st org invite create --buddy
+gtb b map list --raw --fields 1,3- | head -1 | xargs --verbose -n 1 gtb st org invite create --buddy
+gtb b map list --raw --fields 1,3- | head -1 | xargs --verbose -n 1 echo
+man xargs
+brew info findutils
+brew install findutils
+gxargs
+which xargs
+locate xargs
+location xargs
+where xargs
+brew uninstall findutils
+which xargs
+which ggrep
+ggrep
+gtb version
+gtb term
+gtb trello member id QE
+mkdir -p ~/.cache/gtb
+gtb trello member id QE
+gtb version
+gtb b map list --raw --fields 1,3- | head -1 | xargs -d\\n -n1 --verbose echo
+gtb b map list --raw --fields 1,3- | head -3 | xargs -d\\n -n1 --verbose echo
+gtb b map list --raw --fields 1,3- | head -3
+gtb b map list --raw --fields 1,3- | xargs --verbose -n1 -d\\n gtb st org invite create --buddy
+gtb st org invite create --buddy chen.hui gong.liangan shao.danhui zhang.xin --debug
+gtb st org invite create --buddy cao.xi zhang.hongkui
+gtb b map list --raw --fields 1,3- | head -3 | xargs --verbose -n1 -d\\n gtb st org invite create --buddy
+gtb b map list --raw --fields 1,3- | head -3 | xargs --verbose -n1 -L1 gtb st org invite create --buddy
+gtb st org invite cancel
+gtb b map list --raw --fields 1,3- | head -3 | xargs --verbose -n1 -L1 gtb st org invite create --buddy
+gtb trello member id QE
+gtb version
+rm ~/.cache/gtb/trello
+gtb version
+rm ~/.cache/gtb/trello
+gtb trello member id QE
+gtb trello member id QE
+gtb trello member id QE
+gtb trello member id QE  --deb
+gtb trello member id QE  --debug
+gtb b map list --raw --fields 1,3- | xargs --verbose -n1 -L1 gtb st org invite create --buddy
+gtb st org invite list
+join -a 1 <(gtb st list --fields 2 --raw) <(gtb b map list --by-buddee --raw) | gtb sort '2,2rn;1,1' | gtb table_format --raw
+join -a 1 <(gtb st list --fields 2 --raw) <(gtb b map list --by-buddee --raw) | gtb sort '2,2rn;1,1' | gtb table_format
+gtb b map list --by-buddee guo.tianyi song.zijian
+echo '一二三四五六七八九十' | grep -oE '[一-十]'
+echo $LC_ALL
+cat config/env
+source config/env
+echo $LC_ALL
+git status
+vim config/env.template
+git diff
+git add .
+git commit -m 'feat: ensure LC_ALL=en_US.UTF-8'
+git push
+cat ~/.bashrc
+cat ~/.bashrc  | grep UTF
+cat ~/.bashrc  | grep LC_
+./scripts/log-tail
+cd code/automation/
+cd code/automation/
+./scripts/task-stat
+grep --version
+echo $LC_ALL
+vim config/env
+source config/env
+echo '一二三四五六'
+echo '一二三四五六' | grep -P '[\p{Han}]'
+echo '一二三四五六七八九十123334' | grep -P '[\p{Han}]'
+echo ' 一二三四五六七八九十123334' | grep -P '[\p{Han}]'
+echo 'ff 一二三四五六七八九十123334' | grep -P '[\p{Han}]'
+./scripts/log-tail
+gtb version
+gtb version
+gtb version
+gtb b list
+gtb b list
+gtb b list 庄晓雯 zhang.yichi SEA
+./scripts/log-tail
+cd code/automation/
+cd code/automation/
+ll
+brew update && gtb upgrade --yes
+./scripts/task-rerun 10221
+./scripts/task-stat
+./scripts/log-tail
+git pull --rebase --autostash
+git pull --rebase --autostash
+git pull --rebase --autostash
+./scripts/hotreload
+./scripts/log-less
+cd ~/gtb/config/
+git add -p
+git commit -m 'chore: testing webhook'
+git push
+gtb version
+./scripts/log-tail
+cd code/automation/
+./scripts/task-rerun
+./scripts/task-stat
+realpath .
+realpath ..
+cat tasks/done/task-20211127-183208-10225-gtb-upgrade/args
+cat tasks/done/task-20211126-110844-10208-gtb-buddy-map-buddee/args
+gdate
+gdate --iso-8601=days
+gdate --iso-8601=date
+gdate --iso-8601=seconds
+man gdate
+man gdate
+gdate %V
+gdate +%V
+man gdate
+./scripts/task-stat
+echo $((`getconf ARG_MAX` / 1024))
+echo $((`getconf ARG_MAX` / 1024 / 8))
+cd code/automation/
+cd code/automation/
+./scripts/task-stat
+./scripts/log-tail
+cd code/automation/
+cd code/automation/
+ack
+./scripts/log-tail
+grep -R zhonghao tasks/*
+grep -R zhonghao tasks/* | sort
+grep -R zhonghao tasks/* | sort | less
+brew install ack
+cd code/automation/
+git pull --rebase --autostash
+brew install ack
+./scripts/hotreload
+gtb version
+vim handlers/default
+vim services/task-runner/task-runner
+./scripts/service-restart task-runner
+./scripts/task-stat
+./scripts/task-rerun
+./scripts/task-rerun 10235
+./scripts/service-restart webhook
+ll commands/
+git pull --rebase --autostash
+./scripts/task-rerun 10236
+git pull --rebase --autostash
+./scripts/task-rerun 10236
+cat ~/.cache/gtb/trello
+./scripts/task-rerun 10236
+./scripts/log-tail
+./scripts/log-tail
+git pull --rebase --autostash
+cd code/automation/
+cd code/automation/
+git pull --rebase --autostash
+./scripts/service-restart webhook
+./scripts/service-restart task-runner
+cd code/automation/
+./scripts/task-stat
+cd code/automation/
+./scripts/task-rerun 10253
+./scripts/log-tail
+git pull --rebase --autostash
+./scripts/task-rerun 10253
+git pull --rebase --autostash
+./scripts/task-rerun 10253
+./scripts/task-stat
+./scripts/task-rerun 10254
+git pull --rebase --autostash
+./scripts/task-stat
+ll scripts/
+./scripts/task-remove 1025{6,7,8,9}
+./scripts/task-remove 1025{7,8,9}
+./scripts/task-remove 1025{8,9}
+./scripts/task-remove 10259
+./scripts/task-stat
+git pull --rebase --autostash
+./scripts/task-stat
+echo 🏁
+git pull --rebase --autostash
+./scripts/service-restart task-runner
+./scripts/task-stat
+./scripts/task-rerun 10265
+./scripts/task-stat
+./scripts/task-stat
+./scripts/log-tail
+./scripts/log-less
+git st
+./scripts/log-tail
+cd code/automation/
+./scripts/log-less
+cd code/automation/
+cd code/automation/
+./scripts/task-stat
+cat tasks/failed/task-20211129-145915-10271-submit-assignment/*
+ll tasks/failed/task-20211124-134803-10165-gtb-buddy-map-buddee/
+grep '' tasks/failed/task-20211124-134803-10165-gtb-buddy-map-buddee/
+grep '' -R tasks/failed/task-20211124-134803-10165-gtb-buddy-map-buddee/
+grep '' -R tasks/failed/task-20211124-134803-10165-gtb-buddy-map-buddee/{cmd,args,exit_code,output}
+cp scripts/task-remove scripts/task-inspect
+vim scripts/task-inspect
+./scripts/task-inspect 10164
+./scripts/task-inspect 10165
+vim scripts/task-inspect
+./scripts/task-inspect 10165
+./scripts/log-less
+git status
+./scripts/task-stat
+cat scripts/task-inspect
+git pull --rebase --autostash
+git clean -f
+fg
+git status
+git pull --rebase --autostash
+./scripts/task-stat
+./scripts/task-inspect 10271
+./scripts/task-remove 10271
+./scripts/task-inspect 10275
+vim scripts/task-inspect
+./scripts/task-stat
+scripts/task-inspect 10275
+./scripts/task-stat
+scripts/task-inspect 10278
+scripts/task-inspect 10276
+gtb b list ni.xianhao
+gtb b list xianhao.ni
+vim ~/gtb/config/buddies-gtb-2022.txt
+git st
+cd ~/gtb/config
+git diff
+vim buddies-gtb-2022.txt
+git add -p
+git diff --cached
+git commit -m 'chore: change xianhao.ni -> ni.xianhao'
+git push
+scripts/task-rerun 10276
+back
+cd -
+./scripts/task-rerun 10276
+ack tianyi tasks/
+ack guo-tianyi tasks/
+ack song-zijian tasks/
+gtb st list
+./scripts/task-stat
+./scripts/task-rerun 10275
+./scripts/task-rerun 10278
+./scripts/task-stat
+./scripts/task-stat
+./scripts/task-stat
+scripts/task-inspect 10278
+scripts/task-remove 10278
+./scripts/task-rerun 10282
+./scripts/task-stat
+cd tasks/failed/
+ll
+ll
+rm -rf task-*
+ll
+up
+cd -
+ll
+./scripts/task-stat
+ll
+./scripts/task-stat
+./scripts/log-tail
+vim commands/register-coachee
+cd code/automation/
+cd code/automation/
+ll
+./scripts/task-stat
+./scripts/task-stat
+vim services/task-runner/task-runner
+vim services/task-runner/task-runner.service
+vim services/task-runner/task-runner.service
+vim services/task-runner/task-runner
+ack tasks/done/task-20211129-001935-10266-submit-assignment/
+ack '' tasks/done/task-20211129-001935-10266-submit-assignment/
+git pull --rebase --autostash
+./scripts/log-less
+./scripts/task-stat
+./scripts/task-rerun 10283
+vim -o config/env config/env.template
+./scripts/log-tail
+./scripts/task-rerun 10283
+./scripts/log-tail
+cd code/automation/
+cd code/automation/
+./scripts/task-stat
+scripts/task-inspect 10283
+./scripts/log-tail
+cat ../env
+ll
+cat ../env
+ll ...
+ll ..
+vim -o config/env config/env.template
+cat config/env
+./scripts/task-stat
+scripts/task-inspect 10283
+ll ./tasks/failed/task-20211129-193936-10283-gtb-config-pull/
+cat ./tasks/failed/task-20211129-193936-10283-gtb-config-pull/env
+vim ./tasks/failed/task-20211129-193936-10283-gtb-config-pull/env
+./scripts/log-less
+./scripts/task-rerun 10283
+./scripts/log-tail
+./scripts/log-less
+./scripts/service-restart task-runner
+git pull --rebase --autostash
+git stastus
+git status
+./scripts/service-restart task-runner
+scripts/task-inspect 10286
+git pull --rebase --autostash
+scripts/task-inspect 10286
+git pull --rebase --autostash
+./scripts/service-restart task-runner
+vim -o config/env.template config/env
+./scripts/service-restart task-runner
+./scripts/task-rerun 10283
+scripts/task-inspect 10287
+./scripts/log-tail
+cd code/automation/
+git status
+./scripts/task-stat
+cd code/automation/
+./scripts/log-tail
+./scripts/log-less
+cd code/automation/
+vim ~/.gitconfig
+./scripts/log-less
+cd code/automation/
+cd code/automation/
+./scripts/task-stat
+scripts/task-inspect 10294
+scripts/task-inspect 10295
+ack gtb-2022-liu-wei tasks/done/**/output
+ack gtb-2022-liu-wei tasks/*/**/output
+./scripts/task-stat
+scripts/task-inspect 10293
+./scripts/log-tail
+cd code/automation/
+./scripts/log-tail
+cd code/automation/
+vim ~/.bashrc
+./scripts/task-stat
+scripts/task-inspect 10299
+./scripts/task-stat
+scripts/task-inspect 10301
+scripts/task-inspect 10302
+scripts/task-inspect 10303
+scripts/task-inspect 10304
+scripts/task-inspect 10305
+scripts/task-inspect 10306
+scripts/task-inspect 10307
+scripts/task-inspect 10308
+scripts/task-inspect 10309
+./scripts/task-stat
+./scripts/task-stat
+./scripts/task-stat
+gtb limit
+gtb limits
+sudo amazon-linux-extras install docker
+sudo yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
+sudo apt-get remove docker docker-engine docker.io containerd runc
+docker
+sudo apt-get update
+sudo apt-get install docker-ce docker-ce-cli containerd.io
+sudo apt-get install     ca-certificates     curl     gnupg     lsb-release
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+echo   "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu \
+sudo apt-get update
+sudo apt-get install docker-ce docker-ce-cli containerd.io
+sudo docker run hello-world
+docker ps
+whoami
+sudo groupadd docker
+sudo usermod -aG docker $USER
+newgrp docker
+docker ps
+newgrp - docker
+newgrp docker
+docker
+docker images
+sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+history | grep apt
+sudo apt install docker-compose
+docker-compose -version
+sudo passwd ubuntu
+docker ps
+docker images
+up
+ll
+cd ..
+ll
+mv env_parallel.bash gtb /tmp/
+rm env
+ll
+rm Tapping
+ll
+ll
+cd gtb-cypress-dockerfile/
+ll
+docker -v
+glow README.md
+cd ../automation/
+lll
+cd
+ll
+vim ~/.bashrc
+cd code/automation/
+ll
+ls -l
+l
+l handlers/
+l scripts/
+l server
+l services/
+l tasks/
+./scripts/task-stat
+./scripts/task-inspect 10320
+./scripts/task-inspect 10299
+ll
+l tasks/failed/task-20211203-125042-10320-request-repo
+cd tasks/failed/task-20211203-125042-10320-request-repo
+ll
+cat args
+cat cmd
+cat exit_code
+cat output
+./scripts/log-less
+./scripts/log-tail
+./scripts/log-less
+./scripts/log-less
+cd ~/code/automation/
+ll
+ll commands/
+vim commands/request-repo
+vim commands/register-coachee
+cd ../gtb-cypress-dockerfile/
+ll
+docker build -t gtbcypress.wang.xiaofeng .
+systemctl list
+systemctl list-units
+cat ../automation/scripts/service-restart
+sudo systemctl status docker.service
+docker build -t gtbcypress.wang.xiaofeng .
+ll /var/run/docker.sock
+cp commands/request-repo commands/join-org
+vim $!
+vim $!
+sudo docker build -t gtbcypress.wang.xiaofeng .
+df -h
+cd
+ll
+sudo du -m -d 1 | sort -rn | head -10
+ll ~/.cache/
+sudo du -m -d 1 .cache/ | sort -rn | head -10
+sudo du -m -d 1 / | sort -rn | head -10
+sudo du -m -d 1 /usr | sort -rn | head -10
+sudo du -m -d 1 /usr/lib/ | sort -rn | head -10
+sudo du -m -d 1 /usr/bin/ | sort -rn | head -10
+sudo du -m -d 1 /usr/bin | sort -rn | head -10
+sudo du -m -d 1 /usr/share | sort -rn | head -10
+sudo du -m -d 1 /home | sort -rn | head -10
+sudo du -m -d 1 /home/linuxbrew/ | sort -rn | head -10
+sudo du -m -d 1 /home/linuxbrew/.linuxbrew/ | sort -rn | head -10
+sudo du -m -d 1 /home/linuxbrew/.linuxbrew/Cellar/ | sort -rn | head -10
+df -h
+docker image list
+sudo docker image list
+sudo docker image list -h
+sudo docker image list -a
+cd code/automation/
+vim commands/join-org
+vim commands/join-org
+vim services/webhook/hooks.json
+git st
+git status
+git diff services/
+vim services/webhook/hooks.json
+./scripts/service-restart webhook
+./scripts/task-stat
+scripts/task-inspect 10325
+df -h
+df -h
+df -h
+exit;
+df -h
+newgrp docker
+df -hT
+df -hT
+lsblk
+lsblk
+sudo growpart /dev/xvda1
+sudo growpart /dev/xvda 1
+lsblk
+sudo resize2fs /dev/xvda1
+lsblk
+df -h
+cd ..
+cd ~/code
+cd gtb-cypress-dockerfile/
+cd gtb-cypress-dockerfile
+cat cypress.env.json
+docker images
+vim cypress.env.json
+cat cypress.env.json
+docker build -t gtbcypress.qu.hang .
+docker images
+vim cypress.env.json
+df -h
+docker ps -a
+docker rm dea5808b7f9e
+cd ..
+cd automation/
+cd tasks/
+exit;
+./scripts/log-tail
+./scripts/log-less
+./scripts/log-less
+./scripts/log-less
+fg
+./scripts/log-less
+./scripts/log-less
+./scripts/log-less
+fgf
+./scripts/task-stat
+ack shaoqing tasks/
+git status
+cd ../gtb-cypress-dockerfile/
+ll
+vim cypress.env.json
+sudo docker build -t gtbcypress.wang.xiaofeng .
+history | grep build
+git status
+git checkout .
+cd -
+cat commands/join-org
+sudo docker run gtbcypress.wang.xiaofeng --env url=/gtb-2022-wang-xiongmao/invitation
+ll
+cd -
+lll
+ll
+ll cypress/
+ll cypress/screenshots/
+ll cypress/screenshots/invite-spec.js/
+cd -
+git status
+vim README.md
+cat ~/.gitconfig
+fg
+vim README.md
+git status
+chmod +x commands/join-org
+git status
+fg
+fg
+sudo docker run gtbcypress.wang.xiaofeng --env url=/gtb-2022-wang-xiongmao/invitation
+telnet github.com
+vim /etc/hosts
+sudo vim /etc/hosts
+sudo docker run gtbcypress.wang.xiaofeng --env url=/gtb-2022-wang-xiongmao/invitation
+sudo vim /etc/hosts
+ping 13.114.40.48
+ping 66.249.89.104
+cat /etc/host.conf
+cat /etc/hosts
+sudo vim /etc/hosts
+telnet github.com
+curl 'https://github.com'
+sudo docker run gtbcypress.wang.xiaofeng --env url=/gtb-2022-wang-xiongmao/invitation
+./scripts/log-tail
+./scripts/task-stat
+scripts/task-inspect 10331
+scripts/task-inspect 10335
+scripts/task-inspect 10355
+ack gtb-2022-li-peng tasks/done/
+gtb buddy mapping list --by-buddee --raw --fields 3- "li.peng"
+gtb buddy mapping list --by-buddee --raw li.peng
+./scripts/log-tail
+./scripts/task-stat
+scripts/task-inspect 10359
+gtb b list bai.yin
+vim ../../gtb/config/buddies-gtb-2022.txt
+cd ../../gtb/config
+ll
+git show
+git log -p
+cd ~/code/automation/
+ll
+scripts/task-inspect 10359
+./scripts/task-rerun 10359
+./scripts/log-tail
+./scripts/log-tail
+gtb upgrade
+rm /home/ubuntu/.cache/Homebrew/downloads/5cea56ceceea2bd42c7ec00b6b2d9a255210f8171c8702ae3dc456e68338bdd3--gh--2.3.0.x86_64_linux.bottle.tar.gz
+scripts/task-inspect 10359
+gtb upgrade
+./scripts/task-rerun 10359
+./scripts/log-tail
+wpd
+pwd
+pwd
+./scripts/task-stat
+rm -rf tasks/failed/task-*
+./scripts/task-stat
+df -h
+docker images
+cd ..
+cd gtb-cypress-dockerfile/
+echo $SHELL
+sudo vim /etc/hosts
+systemctl restart networking
+systemctl restart networking
+cd ..
+cd ..
+cd tmp
+cd cypress/
+cd /tmp
+wget github.com
+cat index.html
+vim cypress.env.json
+cd ..
+vim cypress.env.json
+docker build -t gtbcypress.zhou.li .
+docker images
+sudo docker run gtbcypress.wang.xiaofeng --env url=/gtb-2022-wang-xiongmao/invitation
+sudo docker run gtbcypress.wang.xiaofeng --env url=/gtb-2022-wang-xiongmao/invitation
+vim cypress.env.json
+exit
+df -h
+cd cp
+cd commands/
+cat gtb-buddy-map-buddee
+cat request-repo
+cd _u
+cd _util
+cat _util
+cd ..
+cd tasks/
+cd ..
+cd handlers/
+cat default
+cd ..
+cat README.md
+cd services/
+cd webhook/
+cat hooks.json
+q
+cd ..
+cd task-runner/
+cat task-runner
+git status
+git log
+cd ..
+cd ..
+cd services/
+cd webhook/
+git status
+git log
+git remote -v
+./scripts/task-stat
+ping www.dropbox.com
+./scripts/task-stat
+scripts/task-inspect 10375
+scripts/task-inspect 10376
+scripts/task-inspect 10377
+df -h
+./scripts/task-stat
+cd handlers/
+cd conf
+cd ..
+cd config/
+cd ..
+cd services/
+cd webhook/
+cat hooks.json
+git status
+git diff
+git status
+git add -p
+git status
+git diff --cached
+pwd
+git status
+git remote -v
+git commit -m 'doc: quote command within ``'
+git add -p
+git status
+git add commands/
+chmod +x commands/*
+git status
+cat commands/_util
+git diff commands/_util
+chmod -x commands/_util
+git status
+git commit -m 'feat: spike to support auto join github org'
+git pull --rebase
+git push
+python -v
+sudo apt install python3
+python3 --version
+python3 -v
+pip3 --version
+sudo apt install python3-pip
+cd ..
+cd automation/
+gst
+git status
+cd ..
+l
+cd gtb-auto-accept-invitation/
+pip3 install playwright
+pip3 install --upgrade pip
+pip install --upgrade pip
+pip3 install --upgrade pip3
+python3 -m pip install --upgrade pip
+python3 -m playwright install
+pip3 install playwright
+python3 --version
+type python3
+type pip3
+pip3 --version
+pip3 -v
+python3 -m pip install --upgrade pip
+pip3 --version
+pip -V
+python
+python3
+sudo apt-get -y reinstall python3-pip
+sudo apt-get -y uninstall python3-pip
+sudo apt-get uninstall python3-pip
+sudo apt-get history python3-pip
+sudo apt-get remove python3-pip
+pip3 -V
+sudo apt-get install python3-pip
+pip3 -V
+sudo apt-get remove python3-pip
+pip install --upgrade pip
+pip -V
+pip --version
+pip
+python3 -m playwright install
+pip3
+pip
+type pip
+ll ~/.local/bin/pip
+ll python
+type python
+type python3
+sudo apt install python3-pip
+pip3
+pip3 -v
+sudo apt-get remove python3-pip
+curl "https://bootstrap.pypa.io/get-pip.py" -o "install-pip3-ubuntu.py"
+cd ../../
+./scripts/task-stat
+scripts/task-inspect 10383
+python3 install-pip3-ubuntu.py
+pip -v
+type pip
+type pip3
+ll /usr/bin/pip3
+cat ~/.gitconfig
+sudo apt remove pip3
+history | grep remove
+sudo apt-get remove python3-pip
+sudo apt autoremove
+python3
+exit'
+exit;
+exit;
+./scripts/log-tail
+cd ../
+ll
+git clone git@gitee.com:ineo6/hosts.git
+git clone https://gitee.com/ineo6/hosts.git
+cd hosts/
+ll
+cat hosts
+sudo vim /etc/host.conf
+sudo vim /etc/host
+brew search w3m
+brew search w3m-img
+brew install w3m
+w3m google.com
+w3m www.google.com
+w3m www.baidu.com
+sudo vim /etc/hosts
+sudo rcnscd restart
+w3m github.com
+w3m github.com
+python --version
+brew search playwright
+brew list
+which python
+brew prefiix
+brew prefix
+brew prefix python@3.9
+brew --prefix python@3.9
+brew info python@3.9
+pip3
+pip3 --version
+pip --version
+brew list
+python3
+cd ..
+ll
+cd gtb-auto-accept-invitation/
+ll
+git pull --rebase
+cat README.md
+pip3 install playwright
+which pip3
+brew list
+ll /home/ubuntu/.local/bin/
+pip install playwright
+brew info python@3.9
+echo $PATH
+vim ~/.bashrc
+vim ~/.bashrc
+echo $PATH
+ll ~/
+ll ~/.local/
+ll ~/.local/bin/
+echo $PYTHONUSERBASE
+vim ~/.bashrc
+echo $PATH
+vim ~/.bashrc
+python --version
+python3 --version
+pip3 --version
+cd ../gtb-auto-accept-invitation/
+ll
+python3 -m pip install playwright
+cat README.md
+set --help
+sed --help
+cat /etc/hosts
+python3 -m playwright install
+sed '/# GitHub Host Start/,/# GitHub Host End/p'
+sed '/# GitHub Host Start/,/# GitHub Host End/p' /etc/hosts
+sed -n '/# GitHub Host Start/,/# GitHub Host End/p' /etc/hosts
+sed -i'' '/# GitHub Host Start/,/# GitHub Host End/d' /etc/hosts
+sudo sed -i'' '/# GitHub Host Start/,/# GitHub Host End/d' /etc/hosts
+cat /etc/hosts
+pwd
+cd ../hosts
+ll
+cp scripts/task-remove scripts/hosts-update
+git remote -v
+cat hosts
+cat /etc/hosts
+cat hosts
+cat hosts >> /etc/hosts
+sudo cat hosts >> /etc/hosts
+echo "cat hosts >> /etc/hosts" | sudo bash
+cat /etc/hosts
+echo "echo >> /etc/hosts" | sudo bash
+cat /etc/hosts
+vim scripts/hosts-update
+vim scripts/hosts-update
+ll scripts/hosts-update
+./scripts/hosts-update
+sudo vim /etc/host
+sudo vim /etc/hosts
+git st
+git status
+git add scripts/hosts-update
+git status
+crontab -l
+crontab -e
+crontab -l
+echo $?
+crontab -l | grep hosts-update
+echo $?
+pwd
+crontab -e
+crontab -l | grep hosts-update
+echo $?
+grep hosts-update <(crontab -l)
+echo $?
+grep hosts-updaddte <(crontab -l)
+echo $?
+vim scripts/hosts-update
+fg
+ack dir commands/
+ack dir handlers/
+vim handlers/nde
+vim handlers/default
+vim services/task-runner/task-runner
+basename "$(dirname "$(realpath "$0")")"
+fg
+./scripts/hosts-update
+cd
+cd
+ll
+./code/automation/scripts/hosts-update
+cd -
+ll
+vim scripts/hosts-update
+$HOME/code/automation/scripts/hosts-update
+fg
+vim scripts/hosts-update
+crontab -l; echo "0 \* \* \* \* $(realpath "$0")"
+crontab -l; echo "0 * * * * $(realpath "$0")"
+cd ../automation/
+./scripts/hosts-update
+./scripts/hosts-update
+fg
+fg
+./scripts/hosts-update
+cd -
+git show
+fg
+vim scripts/hosts-update
+crontab -e
+./scripts/hosts-update
+vim scripts/hosts-update
+crontab -l
+./scripts/hosts-update
+realpath
+realpath ./scripts/hosts-update
+fg
+vim scripts/hosts-update
+echo 'realpath ./scripts/hosts-update' | bash
+which realpath
+cd -
+./scripts/hosts-update
+echo $?
+echo $?
+echo $?
+./scripts/hosts-update
+realpath ./scripts/hosts-update
+realpath --help
+./scripts/hosts-update
+cd -
+cd -
+./scripts/hosts-update
+crontab -e
+./scripts/hosts-update
+crontab -e
+./scripts/hosts-update
+grep CRON /var/log/syslog
+crontab -e
+date
+grep CRON /var/log/syslog
+less /var/log/syslog
+fg
+git status
+git add scripts/hosts-update
+git status
+git diff --cached
+git commit -m 'feat: add scripts/hosts-update to auto update /etc/hosts'
+git push
+cd ../gtb-auto-accept-invitation/
+ll
+ll
+ll
+python3 gtb_accept_invitation.py gtb-2022-qu-test
+cat README.md
+python3 -m playwright install
+echo $?
+python3 -m playwright cr https://www.github.com --save-storage a.auth
+sudo playwright install-deps
+sudo npx playwright install-deps
+brew list | grep node
+npx
+npx playwright install-deps
+python3 -m playwright cr https://www.github.com --save-storage a.auth
+python3 gtb_accept_invitation.py gtb
+playwright
+cd ..
+cd gtb-auto-accept-invitation/
+python3 gtb_accept_invitation.py
+playwright
+sudo playwright install-deps
+docker image list
+docker image -h
+docker image rm gtbcypress.qu.hang gtbcypress.wang.xiaofeng gtbcypress.zhou.li
+docker container kill cdd6d7eafa83
+docker container rm cdd6d7eafa83
+docker image rm gtbcypress.qu.hang gtbcypress.wang.xiaofeng gtbcypress.zhou.li
+docker image rm gtbcypress.wang.xiaofeng
+docker container list --all
+docker container rm 049e04f1d432
+docker container list --all | tail +2
+docker container list --all | tail -n+2
+docker container list --all | tail -n+2 | awk '{print $1}'
+docker container list --all | tail -n+2 | awk '{print $1}' | xargs -I{} docker container rm {}
+docker container list --all
+docker image rm gtbcypress.wang.xiaofeng
+docker image list
+df -h
+docker images
+df -h
+docker pull mcr.microsoft.com/playwright:focal
+pip3 install playwright
+git status
+rm -rf install-pip3-ubuntu.py
+git status
+docker pull mcr.microsoft.com/playwright:focal
+docker image list
+cd ../gtb-auto-accept-invitation/
+git pull --rebase
+ll
+git log
+docker run -it --rm --name=gtb-invitation -v$PWD:/gtb -w /gtb --ipc=host mcr.microsoft.com/playwright:focal /bin/bash -c "python gtb_accept_invitation.py gtb-2022-qu-test"
+ll
+vim gh-join-org
+vim gh-join-org
+ll
+fg
+chmod +x gh-join-org
+./gh-join-org
+./gh-join-org abc
+ln -s /home/ubuntu/code/gtb-auto-accept-invitation/gh-join-org ~/bin/gh-join-org
+gh-join-org abc
+vim README.md
+ln -s /home/ubuntu/code/gtb-auto-accept-invitation/gh-join-org ~/bin
+ll
+fg
+vim gh-join-org
+git pull -r
+git stash
+git pull -r
+git pull -r
+vim gtb_accept_invitation.py
+git status
+git diff gtb_accept_invitation.py
+docker build -t gtb-playwight:1.0 .
+docker images
+vim gtb_accept_invitation.py
+git add -p gtb_accept_invitation.py
+git commit -m 'chore: add logs'
+git statu
+git status
+vim gh-join-org
+git add gh-join-org
+git commit -m 'feat: add script to help run command in docker container'
+df -h
+git push
+docker build -t gtb-playwright:1.0 .
+docker system prune
+df -h
+du -h
+docker images
+docker images rm cypress/included
+docker system df
+docker rm cypress/included
+docker image list
+docker image list --all
+docker images rm cypress/included
+docker images --help
+docker volume prune
+history | images
+docker image rm cypress/included
+docker image rm cypress/included
+docker images
+docker image list --all
+docker image rm cypress/included:9.0.0
+docker image list --all
+docker image list --all
+df -h
+docker images ps
+df -h
+docker build -t gtb-playwright:1.0 .
+docker image list --all
+gh-join-org gtb-2022-qu-test
+vim gh-join-org
+git add -p
+git commit -m 'fix: forgot trailing \ to join lines'
+git push
+gh-join-org gtb-2022-qu-test
+vim gh-join-org
+gh-join-org gtb-2022-qu-test
+docker container list
+vim gh-join-org
+gh-join-org gtb-2022-qu-test
+vim gtb_accept_invitation.py
+gh-join-org gtb-2022-qu-test
+git add -p
+git commit -m 'fix: correct inconsistent use of tabs and spaces in indentation'
+git reset head~
+git reset head~
+git reset head
+git reset HEAD~
+git status
+git add gtb_accept_invitation.py
+git diff --cached
+git commit -m 'fix: correct inconsistent use of tabs and spaces in indentation'
+git add -p
+git commit -m 'feat: do not run container as daemon'
+git add -p
+git diff --cached
+git commit -m 'feat: specify image version tag'
+git push
+gh-join-org gtb-2022-qu-test
+docker run -it gtb-playwright /bin/bash
+docker run -it gtb-playwright:1.0 /bin/bash
+docker run -it -v $PWD:/gtb -w /gtb gtb-playwright:1.0 /bin/bash
+docker ps
+docker ps -a
+docker container rm 5b1025b3493a cdababc4700d
+docker ps -a
+vim gh-join-org
+gh-join-org gtb-2022-qu-test
+vim gh-join-org
+gh-join-org gtb-2022-qu-test
+while true; do docker ps --all; sleep 1; done
+docker container rm 1cb8ae5fb720
+gh-join-org gtb-2022-qu-test
+while true; do docker ps --all; sleep 1; clear; done
+docker ps -a
+docker container rm 494fbc710d35
+vim gh-join-org
+gh-join-org gtb-2022-qu-test
+docker ps -a
+docker container rm f970583a00a1
+docker run -it -v $PWD:/gtb -w /gtb gtb-playwright:1.0 /bin/bash
+docker ps -a
+docker container rm heuristic_leakey
+docker run -t -v $PWD:/gtb -w /gtb gtb-playwright:1.0 /bin/bash -c "python gtb_accept_invitation.py gtb-2022-qu-test"
+cat gh-join-org
+vim gh-join-org
+gh-join-org gtb-2022-qu-test
+docker ps -a
+docker container rm gh-join-org-gtb-2022-qu-test elated_banach
+git status
+git add -p
+git commit -m 'fix: remove docker stop'
+vim gh-join-org
+git add -p
+git commit --amend
+git push
+docker ps -a
+docker ps -a
+docker ps -a
+docker ps -a
+gh-join-org gtb-2022-qu-test
+docker ps -a
+docker ps -a
+cd ../automation/
+ll
+vim commands/join-org
+git add -p
+gh-join-org
+which gh-join-org
+ll /usr/local/
+ll /usr/local/bin/
+cd -
+vim README.md
+git remote -v
+rm ~/bin/gh-join-org
+gh-join-org
+ln -s $PWD/gh-join-org /usr/local/bin
+sudo ln -s $PWD/gh-join-org /usr/local/bin
+gh-join-org
+cd ../gtb-auto-accept-invitation/
+ll
+gh-join-org
+git pr
+git pull --rebase
+git show
+./scripts/task-rerun 10389
+cd ../automation/
+./scripts/task-rerun 10389
+git status
+git diff --cached
+vim /usr/local/bin/gh-join-org
+./scripts/task-rerun 10389
+gtb st org check --role
+gtb st org check --role gtb-2022-wang-xiongmao
+echo $GTB_TERM
+gtb st org check --role gtb-2022-wang-xiaofeng
+gtb st org join zhang.shuai
+gtb st org join wang.xiaofeng zhang.shuai
+gtb st list zhang.shuai
+./scripts/task-stat
+./scripts/task-rerun 10388
+gtb st org check --role wang.xiaofeng
+cd ../gtb-auto-accept-invitation/
+docker run -it --rm -v $PWD:/gtb -w /gtb gtb-playwright:1.0 /bin/bash
+w3m https://github.com/orgs/gtb-2022-wang-xiongmao/invitation
+cat /etc/hosts
+w3m github.com
+sudo vim /etc/hosts
+w3m github.com
+w3m https://github.com/orgs/gtb-2022-wang-xiongmao/invitation
+sudo systemctl restart dnsmasq.service
+ps aux
+ps aux | grep dns
+w3m https://github.com/orgs/gtb-2022-wang-xiongmao/invitation
+w3m github.com
+./scripts/task-stat
+cd ../automation/
+./scripts/task-stat
+cat /etc/hosts
+cd -
+ll
+gh-join-org gtb-2022-wang-xiongmao
+docker ps
+cat gh-join-org
+docker run -it --rm -v $PWD:/gtb -w /gtb gtb-playwright:1.0 /bin/bash
+docker run -it --rm -v $PWD:/gtb -w /gtb gtb-playwright:1.0 /bin/bash -c "python gtb_accept_invitation.py gtb-2022-wang-xiongmao"
+docker run -it --rm -v $PWD:/gtb -w /gtb gtb-playwright:1.0 /bin/bash
+w3m github.com
+w3m https://github.com/orgs/gtb-2022-wang-xiongmao/invitation
+ll
+cat /etc/hosts
+crontab -e
+cd ../automation/
+./scripts/hosts-update
+sudo vim /etc/hosts
+./scripts/hosts-update
+cd ../gtb-auto-accept-invitation/
+vim gh-join-org
+gh-join-org gtb-2022-wang-xiongmao
+vim gtb_accept_invitation.py
+gh-join-org gtb-2022-wang-xiongmao
+vim gtb_accept_invitation.py
+gh-join-org gtb-2022-wang-xiongmao
+vim gtb_accept_invitation.py
+git add -p
+git diff --cached
+git commit -m 'fix: should run docker with sudo'
+git add -p
+git commit -m 'fix: change timeout from 5s to 30s'
+git status
+git push
+w3m https://github.com/orgs/gtb-2022-wang-xiongmao/invitation
+cd ..
+cd gtb-auto-accept-invitation/
+exit;
+pwd
+git pull --rebase
+mv ../qu.hang.auth .
+git pull --rebase
+gh-join-org gtb-2022-wang-xiongmao
+git pull --rebase
+./scripts/task-stat
+cd ../automation/
+./scripts/task-stat
+./scripts/task-rerun 10393
+mv wang.xiaofeng.auth wang.xiaofeng.auth1
+./gh-join-org gtb-2022-wang-xiongmao
+ll
+cd -
+ll
+gh-join-org gtb-2022-wang-xiongmao
+ll
+pwd
+mv wang.xiaofeng.auth1 wang.xiaofeng.auth
+gh-join-org gtb-2022-wang-xiongmao
+./scripts/task-rerun 10393
+cd -
+./scripts/task-rerun 10393
+cd -
+vim gtb_accept_invitation.py
+git add -p
+git commit -m 'feat: change timeout from 30s to 60s'
+git push
+git pull --rebase; cd ../automation; ./scripts/task-rerun 10393
+./scripts/task-rerun 10393
+cd -
+ll
+cp wang.xiaofeng.auth wang.xiaofeng0.auth
+./scripts/task-rerun 10393
+cd -
+./scripts/task-rerun 10393
+sudo vim /etc/hosts
+./scripts/task-rerun 10393
+cat /etc/hosts
+dig +trace github.com
+apt search w3m
+w3m --version
+w3m -v
+cat /etc/hosts
+cd tasks
+cd done
+cat task-20211207-182255-10389-join-org/
+cd task-20211207-182255-10389-join-org/
+cat env
+cat exit_code
+cat output
+cat cmd
+cat args
+cd ..
+cd ..
+cd ..
+cd config
+cat gitconfig
+cat env
+cd ..
+cat readme.md
+pwd
+cd handlers/
+cat default
+cd ..
+cd ..
+df -h
+docker images
+./scripts/log-tail
+./scripts/task-stat
+./scripts/task-stat
+./scripts/task-stat
+man cat
+./scripts/task-stat
+man tar
+./scripts/task-stat
+./scripts/log-tail
+./scripts/task-stat
+scripts/task-inspect 10408
+gtb b map list --by-buddee zhang.jinhao
+ack gtb-2022-zhang-jinhao tasks/done/
+./scripts/task-rerun 10408
+./scripts/task-stat
+scripts/task-inspect 10410
+./scripts/task-remove 10410
+scripts/task-inspect 10413
+gtb b map list --by-buddee liu.wei
+git pull --rebase
+git st
+git status
+git diff --cached
+git pull --rebase --autostatsh
+git pull --rebase --auto-statsh
+git pull --rebase --autostash
+git pull --rebase --autostash
+git st
+git status
+cat commands/join-org
+git checkout .
+git pull --rebase --autostash
+./scripts/task-stat
+./scripts/log-tail
+./scripts/task-stat
+scripts/task-inspect 10426
+./scripts/task-rerun 10426
+gtb st org invite list wang.nan li.peng
+./scripts/task-stat
+while true; ./scripts/task-stat; sleep 10; done
+while true; do ./scripts/task-stat; sleep 10; done
+while true; do ./scripts/task-stat; date; sleep 10; done
+scripts/task-inspect 10436
+gtb st show hao.wei
+ack YINBAI tasks/
+gtb b map list
+gtb b map list --by-dudee liu.yifu
+gtb b map list --by-duddee liu.yifu
+./scripts/log-tail
+man sort
+while true; do ./scripts/task-stat; date; sleep 10; done
+git pull --rebase --autostash
+git show
+while true; do ./scripts/task-stat; date; sleep 10; done
+scripts/task-inspect 10436
+ack yuting.li tasks/
+./scripts/log-tail
+scripts/task-inspect 10436
+while true; do ./scripts/task-stat; date; sleep 10; done
+cat ~/.gitconfig
+ls -t
+ls -tl
+ls -tr
+ls -trl
+cd
+mkdir invitations
+ll
+cd invitations/
+ll
+touch gtb-2022-wang-xiongmao
+touch gtb-2022-qu-test
+ll
+up
+ls -tr /home/ubuntu/invitations/*
+ls -tr /home/ubuntu/invitations/
+ls -tr /home/ubuntu/invitations
+cd
+ls -tr /home/ubuntu/invitations
+mkdir abc
+ls -tr /home/ubuntu/abc
+rm -rf abc
+./scripts/log-tail
+crontab -l
+cd -\
+cd ../code/automation/
+ll
+git status
+git pull --rebase --autostash
+./scripts/hotreload
+touch /home/ubuntu/invitations/gtb-2022-qu-test
+touch /home/ubuntu/invitations/gtb-2022-wang-xiongmao
+touch /home/ubuntu/invitations/gtb-2022-qu-test
+touch /home/ubuntu/invitations/gtb-2022-wang-xiongmao
+touch /home/ubuntu/invitations/gtb-2022-wang-xiongmao
+touch /home/ubuntu/invitations/gtb-2022-wang-xiongmao
+touch /home/ubuntu/invitations/gtb-2022-qu-test
+ll ~/invitations/
+ll ~/invitations/
+./scripts/log-tail
+vim ~/.bashrc
+ack zhou.zhixuan tasks/
+ack zhou.zhixuan tasks/
+scripts/task-inspect 10208
+./scripts/task-stat
+scripts/task-inspect 10476
+./scripts/task-stat
+./scripts/task-rerun 10485
+./scripts/task-rerun 10486
+./scripts/task-rerun 10487
+./scripts/task-rerun 10488
+./scripts/task-rerun 10489
+./scripts/task-rerun 10490
+./scripts/task-stat
+./scripts/task-stat
+./scripts/task-stat
+./scripts/task-stat
+./scripts/task-stat
+./scripts/task-stat
+scripts/task-inspect 10485
+scripts/task-inspect 10486
+scripts/task-inspect 10487
+scripts/task-inspect 10488
+scripts/task-inspect 10489
+scripts/task-inspect 10490
+./scripts/task-stat
+./scripts/task-stat
+man sed
+echo "a\nb\nc" | nl -n ln | gtb cuts 1 | cat -vet
+echo "a\nb\nc" | nl -n ln | gtb cuts 1 | cat -vet
+echo "a\nb\nc"
+echo -e "a\nb\nc"
+echo -e "a\nb\nc" | nl -n ln | gtb cuts 1 | cat -vet
+./scripts/task-stat
+./scripts/task-stat
+./scripts/task-stat
+./scripts/task-stat
+scripts/task-inspect 10436
+scripts/task-remove 10436
+./scripts/task-stat
+scripts/task-remove 10393
+scripts/task-inspect 10413
+gtb b map list --by-buddee liu.wei
+./scripts/log-tail
+./scripts/task-stat
+ack * tasks/**/exit-code
+ack '' tasks/**/exit-code
+ll tasks/failed/task-20211211-154533-10530-gtb-buddy-map-buddee
+ack '' tasks/**/exit_code
+ack '' exit_code
+ack '' */exit_code
+ack '' */**/exit_code
+cat scripts/task-inspect
+grep '' -R exit_code
+grep '' -R tasks/**/exit_code
+grep '' -R tasks/*/*/exit_code
+grep '' -R tasks/*/done/exit_code
+grep '' -R tasks/done/*/exit_code
+grep '' -R tasks/done/*/exit_code | column -t:
+grep '' -R tasks/done/*/exit_code | column -t':'
+grep '' -R tasks/done/*/exit_code | column -t ':'
+man column
+grep '' -R tasks/done/*/exit_code | column -t -s':'
+./scripts/task-stat
+./scripts/task-inspect 10413
+./scripts/task-stat
+./scripts/task-stat
+man column
+man awk
+type awk
+type gawk
+brew install gawk
+./scripts/task-stat
+man gawk
+type gawk
+./scripts/task-stat
+./scripts/task-inspect 10544
+ll
+ack yin.zhonghao tasks/
+./scripts/task-stat
+./scripts/task-inspect 10610
+perror
+vim commands/submit-assignment
+vim commands/submit-assignment
+git st
+git status
+git diff
+./scripts/task-stat
+./scripts/service-install webhook
+./scripts/task-inspect 10530
+scripts/task-remove 10530
+./scripts/task-stat
+./scripts/task-inspect 10548
+./scripts/task-inspect 10549
+./scripts/task-inspect 10551
+./scripts/task-inspect 10557
+./scripts/task-inspect 10559
+./scripts/task-inspect 10616
+./scripts/task-stat
+./scripts/task-inspect 10621
+./scripts/task-inspect 10548
+./scripts/task-inspect 10549
+./scripts/task-inspect 10551
+./scripts/task-inspect 10557
+./scripts/task-inspect 10559
+./scripts/task-inspect 10616
+./scripts/task-stat
+./scripts/task-rerun 10548
+./scripts/task-rerun 10549
+./scripts/task-rerun 10551
+./scripts/task-rerun 10557
+./scripts/task-rerun 10559
+./scripts/task-rerun 10616
+./scripts/task-stat
+./scripts/task-stat
+./scripts/task-inspect 10626
+man sort
+gtb b map list
+cd `gtb config`
+ll
+head buddies-mapping-gtb-2022.txt
+./scripts/log-tail
+cd tasks/
+cd failed/
+./scripts/task-stat
+awk xie.qi
+awk xie.qi tasks/
+awk 'xie.qi' tasks/
+awk 'xie-qi' tasks/
+ack 'xie.qi' tasks/
+./scripts/task-stat
+./scripts/task-inspect 10626
+./scripts/task-inspect 10638
+./scripts/task-inspect 1063
+./scripts/task-inspect 10638
+./scripts/task-inspect 10639
+./scripts/task-inspect 10650
+./scripts/task-inspect 10651
+./scripts/task-inspect 10653
+./scripts/task-inspect 10656
+./scripts/task-inspect 10669
+./scripts/task-inspect 10670
+./scripts/task-inspect 10671
+./scripts/task-inspect 10685
+./scripts/task-inspect 10688
+./scripts/task-stat
+rm -rf tasks/failed/task-20*-request-repo
+./scripts/task-stat
+./scripts/task-stat
+cat tasks/failed/task-20211214-211311-10722-request-repo/args
+cat tasks/failed/task-20211214-211311-10722-request-repo/{args,exit_code
+cat tasks/failed/task-20211214-211311-10722-request-repo/{args,exit_code}
+find tasks/failed/ -type d -depth 1
+find tasks/failed/ -type d -mindepth 1 -maxdepth 1
+find tasks/failed/ -mindepth 1 -maxdepth 1 -type d
+find tasks/failed/ -mindepth 1 -maxdepth 1 -type d | sort
+find tasks/failed/ -mindepth 1 -maxdepth 1 -type d | sort | xargs -n1 echo
+find tasks/failed/ -mindepth 1 -maxdepth 1 -type d | sort | xargs -n1 -I{} echo '{}'
+find tasks/failed/ -mindepth 1 -maxdepth 1 -type d | sort | xargs -n1 -I{} echo "'{}'"
+find tasks/failed/ -mindepth 1 -maxdepth 1 -type d | sort | xargs -I{} echo "'{}'"
+find tasks/failed/ -mindepth 1 -maxdepth 1 -type d | sort | xargs -I{} cat {}/{exit_code,command,args}
+l tasks/failed/task-20211214-211311-10722-request-repo/
+find tasks/failed/ -mindepth 1 -maxdepth 1 -type d | sort | xargs -I{} cat {}/{exit_code,cmd,args}
+find tasks/failed/ -mindepth 1 -maxdepth 1 -type d | sort | xargs -I{} cat {}/{exit_code,cmd,args} | paste -sd' ' - - -
+find tasks/failed/ -mindepth 1 -maxdepth 1 -type d | sort | xargs -I{} cat {}/{exit_code,cmd,args} | paste -d' ' - - -
+find tasks/failed/ -mindepth 1 -maxdepth 1 -type d | sort | xargs -I{} cat {}/{exit_code,cmd,args} | paste -d' ' - - - | gtb table_format
+gtb st repo list li.tianyi
+./scripts/task-inspect 10758
+fzf
+brew install fzf
+fzf
+while true; do ./scripts/task-stat; date; sleep 30; done
+vim handlers/default
+git diff
+vim handlers/default
+./scripts/task-inspect 10772
+ll ./tasks/done/task-20211215-143824-10772-request-repo/
+cat ./tasks/done/task-20211215-143824-10772-request-repo/time
+cat ./tasks/done/task-20211215-143824-10772-request-repo/id
+vim create-id-and-time-file.sh
+find tasks -mindepth 2 -maxdepth 2 -type d
+vim create-id-and-time-file.sh
+cp create-id-and-time-file.sh scripts/task-list
+chmod +x scripts/task-list
+vim scripts/task-list
+vim create-id-and-time-file.sh
+chmod +x ./create-id-and-time-file.sh
+./create-id-and-time-file.sh
+fg
+./create-id-and-time-file.sh
+fg
+./create-id-and-time-file.sh | cut -d'-' -f2
+./create-id-and-time-file.sh | cut -d'-' -f2,3
+./create-id-and-time-file.sh | cut -d'-' -f2,3,4
+fg
+./create-id-and-time-file.sh
+cat ./tasks/done/task-20211122-034828-10025/id
+cat ./tasks/done/task-20211122-034828-10025/time
+cat ./tasks/done/task-20211210-223230-10496-request-repo/id
+cat ./tasks/done/task-20211210-223230-10496-request-repo/time
+./create-id-and-time-file.sh
+cat ./tasks/done/task-20211122-034828-10025/time
+fg
+./create-id-and-time-file.sh
+./scripts/task-list
+vim scripts/task-list
+./scripts/task-list
+fg
+./scripts/task-list
+fg
+cat tasks/done/task-20211122-034251-10023/*
+cat tasks/done/task-20211122-034251-10023/args
+./scripts/task-list
+vim scripts/task-list
+fg
+./scripts/task-list
+fg
+./scripts/task-list
+./scripts/task-list
+./scripts/task-list 3
+./scripts/task-list 30
+./scripts/task-list | fzf
+man fzf
+./scripts/task-list | fzf --no-sort
+./scripts/task-list | fzf --no-sort --tac
+while true; do ./scripts/task-stat; date; sleep 30; done
+while true; do ./scripts/task-list; date; sleep 30; done
+./scripts/task-rerun 211311
+./scripts/task-rerun 221435
+./scripts/task-rerun 224319
+gtb st repo list lin.qingqing
+./scripts/task-rerun 113833
+vim ./scripts/task-rerun
+./scripts/task-list
+./scripts/task-list
+./scripts/task-list
+./scripts/task-rerun 10751
+./scripts/task-rerun 10757
+./scripts/task-rerun 10758
+./scripts/task-rerun 10776
+./scripts/task-list
+./scripts/task-remove 10757
+./scripts/task-list
+git status
+ll
+git status
+git add scripts/task-list
+git commit -m 'feat: add script task-list to show tasks in table format'
+git show
+vim scripts/task-lki
+vim scripts/task-list
+vim scripts/task-list
+./scripts/task-list
+./scripts/task-rerun 10776
+./scripts/task-list
+./scripts/task-list
+rm tasks/failed/task-20211215-151505-10776-request-repo/exit_code
+vim scripts/task-list
+./scripts/task-rerun 10776
+./scripts/task-list
+git status
+git add scripts/task-list
+git diff --cached
+./scripts/task-list
+git status
+git commit --amend
+git show
+git push
+git status
+git clena -fd
+git clena -fd
+git clean -fd
+git status
+git diff
+git add handlers/
+git diff --cached
+git commit -m 'feat: create id and time files inside task folder'
+git push
+git status
+./scripts/task-list
+./scripts/task-stat
+./scripts/task-list
+./scripts/task-remove 10732
+./scripts/task-remove 10758
+./scripts/task-remove 10776
+./scripts/task-list
+cat tasks/done/task-20211215-153126-10780-gtb-buddy-map-buddee/args
+cat -vet tasks/done/task-20211215-153126-10780-gtb-buddy-map-buddee/args
+cat tasks/done/task-20211215-153126-10780-gtb-buddy-map-buddee/args | awk '{print}'
+cat tasks/done/task-20211215-153126-10780-gtb-buddy-map-buddee/args | tr -s' '
+cat tasks/done/task-20211215-153126-10780-gtb-buddy-map-buddee/args | tr -s ' '
+cat tasks/done/task-20211215-153126-10780-gtb-buddy-map-buddee/args | tr -s ' ' | cat -vet
+cat tasks/done/task-20211215-153126-10780-gtb-buddy-map-buddee/args | tr -s ' '
+vim scripts/task-list
+./scripts/task-list
+git add -p
+git commit -m 'fix: squash multiple white spaces using tr'
+git push
+./scripts/task-list
+./scripts/log-tail
+exit
+exit
+exit
+./scripts/task-list
+./scripts/task-list
+mv commands/gtb-upgrade commands/gtb-upgrade2
+./scripts/task-list
+rm -rf tasks/failed/task-*
+./scripts/task-list
+find "./tasks/done" -mindepth 1 -maxdepth 1 -type d
+find "./tasks/done" -mindepth 1 -maxdepth 1 -type d | grep ''
+find "./tasks/done" -mindepth 1 -maxdepth 1 -type d | grep '' | wc -l
+find "./tasks/done" -mindepth 1 -maxdepth 1 -type d | wc -l
+find "./tasks/done" -mindepth 1 -maxdepth 1 -type d | grep 'request-repo' | wc -l
+./scripts/task-list 500 | fzf
+man fzf
+./scripts/task-list 500 | fzf
+xargs --show-limits
+./scripts/task-list
+./scripts/task-rerun 10828
+./scripts/task-list
+./scripts/task-rerun 10828
+./scripts/task-remove 10828
+man uniq
+vim handlers/default
+vim handlers/default
+date "+%Y%m%d"
+date "+%Y-%m-%d"
+ack iso
+ack iso commands/
+ack iso scripts/
+./scripts/log-tail
+./scripts/task-list
+./scripts/task-list
+git status
+git diff
+git checkout .
+git status
+git clean -f
+git status
+git clean -fn
+git status
+git pull -r
+gtb upgrade
+./scripts/task-remove 10866
+./scripts/task-list
+vim scripts/task-list
+./scripts/task-list
+git checkout .
+man sort
+cd `gtb config`
+ll
+cat assignment-submissions-gtb-2022.txt
+sort -u assignment-submissions-gtb-2022.txt
+sort -ru assignment-submissions-gtb-2022.txt
+man sort
+sort -ru assignment-submissions-gtb-2022.txt
+man sort
+sort -du assignment-submissions-gtb-2022.txt
+man ascii
+man ascii
+man sort
+man sort
+sort -t' ' -k'1' -u assignment-submissions-gtb-2022.txt
+sort -t' ' -d -k'1' -u assignment-submissions-gtb-2022.txt
+man sort
+sort -t' ' -d -k'1,4' -u assignment-submissions-gtb-2022.txt
+echo $LC_COLLATE
+man sort
+sort -t' ' -i -k'1,4' -u assignment-submissions-gtb-2022.txt
+sort -t' ' -i -k'1,4' -u assignment-submissions-gtb-2022.txt
+export LC_COLLATE=C
+sort -t' ' -i -k'1,4' -u assignment-submissions-gtb-2022.txt
+echo -e "c\nb\nB\na" | LC_COLLATE=C sort --ignore-case
+echo -e "c\nb\nB\na" | LC_COLLATE=C sort
+echo -e "d\nD\nc\nb\nB\na" | LC_COLLATE=C sort
+man sort
+man sort
+brew install coreutils
+gsort -t' ' -k'1,4' -u assignment-submissions-gtb-2022.txt
+gsort -t' ' -d -k'1,4' -u assignment-submissions-gtb-2022.txt
+gsort --version
+gsort -t' ' -i -k'1,4' -u assignment-submissions-gtb-2022.txt
+gsort -t' ' -di -k'1,4' -u assignment-submissions-gtb-2022.txt
+echo $LC_COLLATE
+export LC_COLLATE=
+gsort -t' ' -di -k'1,4' -u assignment-submissions-gtb-2022.txt
+gsort -t' ' -d -k'1,4' -u assignment-submissions-gtb-2022.txt
+gsort -t' ' -i -k'1,4' -u assignment-submissions-gtb-2022.txt
+gsort -t' ' -k'1,4' -u assignment-submissions-gtb-2022.txt
+man gsort
+gsort --ignore-case -u assignment-submissions-gtb-2022.txt
+gsort --ignore-case -u assignment-submissions-gtb-2022.txt -r
+export LC_ALL=C
+gsort -t' ' -di -k'1,4' -u assignment-submissions-gtb-2022.txt
+gsort -t' ' -k'1,4' -u assignment-submissions-gtb-2022.txt
+sort -t' ' -k'1,4' -u assignment-submissions-gtb-2022.txt
+vim ~/.bashrc
+head ~/.bashrc
+export LC_ALL=en_US.UTF-8
+sort -u assignment-submissions-gtb-2022.txt
+export LC_ALL=C
+sort -u assignment-submissions-gtb-2022.txt
+export LC_ALL=en_US.UTF-8
+sort -u assignment-submissions-gtb-2022.txt
+sort -u assignment-submissions-gtb-2022.txt
+./scripts/task-list
+cd -
+./scripts/task-list
+gtb as sub list
+./scripts/task-rerun 10828
+./scripts/task-rerun 10867
+gtb as sub list
+cd -
+cat assignment-submissions-gtb-2022.txt
+cd -
+./scripts/task-rerun 10868
+git st
+./scripts/task-list
+./scripts/task-rerun 10867
+./scripts/task-list
+./scripts/task-list
+./scripts/task-list
+cd -
+git log -p
+./scripts/task-list
+cd -
+./scripts/task-list
+./scripts/log-tail
+./scripts/task-list
+./scripts/task-inspect 081333
+./scripts/task-inspect
+./scripts/task-inspect 10880
+which java
+echo $SHELL
+./scripts/task-list
+find ./tasks -type d -regex "./tasks/.*/task-\d{10}-\d{6}-\b10880\b.*"
+find ./tasks -type d -regex "./tasks/.*/task-[0-9]{10}-[0-9]{6}-\b10880\b.*"
+find ./tasks -type d -regex "./tasks/.*/task-[0-9]{8}-[0-9]{6}-\b10880\b.*"
+find ./tasks -type d -regex "./tasks/.*/task-[0-9]{8}-[0-9]{6}-\b10880\b.*"
+find ./tasks -type d -regex "./.*/task-[0-9]{8}-[0-9]{6}-\b10880\b.*"
+find . -type d -regex "./tasks/.*/task-[0-9]{8}-[0-9]{6}-\b10880\b.*"
+find . -type d -regex "./tasks/.*/task-.*-\b10880\b.*"
+find ./tasks -type d -regex "./tasks/.*/task-.*-\b10880\b.*"
+man find
+find ./tasks -type d -regextype posix-extended -regex "./tasks/.*/task-.*-\b10880\b.*"
+find ./tasks -type d -regextype posix-extended -regex "./tasks/.*/task-\d{8}-.*-\b10880\b.*"
+find ./tasks -type d -regextype posix-extended -regex "./tasks/.*/task-[0-9]{8}-.*-\b10880\b.*"
+find ./tasks -type d -regextype posix-extended -regex "./tasks/.*/task-[0-9]{8}-[0-9]{6}-\b10880\b.*"
+echo "${TASK_DIR}/{env,cmd,args,exit_code,output}"
+echo ${TASK_DIR}/{env,cmd,args,exit_code,output}
+for FILE in ${TASK_DIR}/{env,cmd,args,exit_code,output}; do echo "=> $FILE"; cat $FILE; done
+for FILE in ${TASK_DIR}/{env,cmd,args,exit_code,output}; do echo "$FILE"; cat $FILE; done
+git status
+git pull --rebase --autostash
+./scripts/task-inspect 10880
+git pull --rebase --autostash
+./scripts/task-list
+./scripts/task-list
+./scripts/task-inspect 10882
+./scripts/task-inspect 10893
+./scripts/task-inspect 10898
+./scripts/task-list | fzf
+./scripts/task-inspect 10898
+cat commands/request-repo
+gtb repo publish assignment-html-css gtb-2022-wang-xiongmao --yes
+./scripts/task-list | fzf
+./scripts/task-list
+./scripts/task-inspect 10912
+less ./scripts/task-list
+./scripts/task-list 200
+man fzf
+./scripts/task-list 200 | fzf --tac --no-sort
+./scripts/task-list 1000 | fzf --tac --no-sort
+fr
+vim ~/.bashrc
+./scripts/task-list 1000 | fr
+./scripts/task-list 100 | fr
+find "./tasks/done" -mindepth 1 -maxdepth 1 -type d | sort | tail -n"1000"
+find "./tasks/done" -mindepth 1 -maxdepth 1 -type d | sort | tail -n"1000"
+find "./tasks/done" -mindepth 1 -maxdepth 1 -type d | sort | tail -n"1000"
+find "./tasks/done" -mindepth 1 -maxdepth 1 -type d | sort | tail -n"1000"
+vim ./scripts/task-list
+git status
+git pull --rebase --autostash
+./scripts/log-tail
+vim ./scripts/task-list
+./scripts/task-list 100
+./scripts/task-inspect 10917
+./scripts/task-remove 10919
+./scripts/task-remove 10911
+./scripts/task-remove 10912
+./scripts/task-remove 10917
+./scripts/task-list
+./scripts/task-list 1000 | fr
+cat handlers/default
+vim commands/_util
+vim services/task-runner/task-runner
+git pull --rebase --autostash
+./scripts/service-restart task-runner
+./scripts/task-list
+./scripts/task-rerun 10922
+./scripts/log-tail
+./scripts/task-list
+./scripts/task-list
+./scripts/task-remove 10880
+./scripts/task-remove 10881
+./scripts/task-remove 1088
+./scripts/task-remove 10882
+./scripts/task-remove 10883
+./scripts/task-remove 10893
+./scripts/task-remove 10898
+./scripts/task-list
+ack 'by force' tasks/done/
+./scripts/task-inspect 10950
+./scripts/task-list
+gdate
+./scripts/service-restart webhook
+git pull --rebase --autostash
+./scripts/service-restart webhook
+./scripts/task-list
+./scripts/task-rerun 10964
+./scripts/task-list
+./scripts/task-list
+./scripts/log-tail
+./scripts/log-tail
+./scripts/task-list
+./scripts/task-inspect 10981
+vim tasks/failed/task-20211219-134444-10981-submit-review/args
+./scripts/task-rerun 10981
+./scripts/task-inspect 10981
+./scripts/task-list
+./scripts/task-inspect 11000
+./scripts/task-rerun 11000
+./scripts/task-rerun 11003
+vim tasks/failed/task-20211219-205437-11020-submit-review/args
+./scripts/task-rerun 11020
+./scripts/task-list
+./scripts/task-list
+./scripts/task-list
+./scripts/task-remove 11030
+./scripts/task-list
+./scripts/task-list
+./scripts/task-list
+./scripts/task-list
+git pull --rebase --autostash
+./scripts/task-list
+./scripts/task-remove 11045
+./scripts/task-list
+./scripts/log-tail
+git pull --rebase --autostash
+git pull --rebase --autostash
+./scripts/task-list
+./scripts/log-tail
+./scripts/log-tail
+./scripts/task-list 200
+./scripts/task-list 200 | fzf
+./scripts/task-inspect 11011
+./scripts/task-list 2000 | fzf
+./scripts/task-inspect 10794
+ll /home/ubuntu/gtb/repos/default/
+cd /home/ubuntu/gtb/repos/default/
+ll
+cd Assignment-html-css/
+ll
+git remote -v
+git pull --rebase origin
+./scripts/task-list 2000 | fzf
+cd ~/code/automation/
+./scripts/task-list 2000 | fzf
+./scripts/task-list 2000 | fr
+./scripts/task-list
+git pull --rebase --autostash
+./scripts/service-restart webhook
+./scripts/task-inspect 11088
+vim ./tasks/done/task-20211220-192729-11088-new-feedback/args
+./scripts/task-rerun 11088
+set -- <./tasks/done/task-20211220-192729-11088-new-feedback/args
+echo $@
+set -- <(cat ./tasks/done/task-20211220-192729-11088-new-feedback/args)
+echo $@
+set -- $(cat ./tasks/done/task-20211220-192729-11088-new-feedback/args)
+echo $@
+for v in "$@"; do echo $v; done
+vim ./tasks/done/task-20211220-192729-11088-new-feedback/args
+man mapfile
+mapfile
+mapfile --help
+vim foo
+chmod +x foo
+./foo $(cat ./tasks/done/task-20211220-192729-11088-new-feedback/args)
+./foo "$(cat ./tasks/done/task-20211220-192729-11088-new-feedback/args)"
+./foo $(cat ./tasks/done/task-20211220-192729-11088-new-feedback/args | sed -e 's/^/"/' -e 's/$/"/')
+vim ./tasks/done/task-20211220-192729-11088-new-feedback/args
+git st
+vim services/task-runner/task-runner
+./scripts/service-restart task-runner
+./scripts/task-rerun 11088
+git status
+git diff
+git checkout services/
+git status
+rm foo
+git status
+git st
+git pull --rebase --autostash
+./scripts/service-restart task-runner
+./scripts/task-rerun 11088
+vim ./tasks/done/task-20211220-192729-11088-new-feedback/args
+./scripts/task-rerun 11088
+vim ./tasks/done/task-20211220-192729-11088-new-feedback/args
+vim ./tasks/failed/task-20211220-192729-11088-new-feedback/args
+./scripts/task-rerun 11088
+find tasks/ -type f -name args
+for FILE in $(find tasks/ -type f -name args); do echo $FILE; done
+for FILE in $(find tasks/ -type f -name args); do echo $FILE; cat -n $FILE; done
+for FILE in $(find tasks/ -type f -name args); do cat -n $FILE; done | sort -n | less
+git pull --rebase --autostash
+for FILE in $(find tasks/ -type f -name args); do echo $FILE; cat -n $FILE; done
+sed 's/ \+/ /g' tasks/done/task-20211130-105420-10285-gtb-buddy-map-buddee/args
+sed 's/ \+/&/g' tasks/done/task-20211130-105420-10285-gtb-buddy-map-buddee/args
+sed 's/ \+/\n/g' tasks/done/task-20211130-105420-10285-gtb-buddy-map-buddee/args
+sed -e 's/ \+/\n/g' -e 's/ \+$//' tasks/done/task-20211130-105420-10285-gtb-buddy-map-buddee/args
+sed -e 's/ \+$//' -e 's/ \+/\n/g' tasks/done/task-20211130-105420-10285-gtb-buddy-map-buddee/args
+sed -i -e 's/ \+$//' -e 's/ \+/\n/g' tasks/done/task-20211130-105420-10285-gtb-buddy-map-buddee/args
+cat tasks/done/task-20211130-105420-10285-gtb-buddy-map-buddee/args
+cat tasks/done/task-20211123-211937-10136-gtb-config-pull/args
+sed -i -e 's/ \+$//' -e 's/ \+/\n/g' tasks/done/task-20211123-211937-10136-gtb-config-pull/args
+cat tasks/done/task-20211123-211937-10136-gtb-config-pull/args
+for FILE in $(find tasks/ -type f -name args); do echo $FILE; sed -i -e 's/ \+$//' -e 's/ \+/\n/g' $FILE; done
+vim ./tasks/done/task-20211220-192729-11088-new-feedback/args
+cat tasks/done/task-20211125-012255-10185-submit-assignment/args
+cat tasks/done/task-20211215-153319-10781-request-repo/args
+for FILE in $(find tasks/ -type f -name args); do grep --silent ' ' $FILE && echo $FILE; done
+./scripts/service-restart task-runner
+ll ./tasks/done/task-20211220-192729-11088-new-feedback
+vim ./tasks/done/task-20211220-192729-11088-new-feedback/args
+git pull --rebase --autostash
+./scripts/service-restart task-runner
+./scripts/task-rerun 11088
+git pull --rebase --autostash
+./scripts/service-restart task-runner
+./scripts/task-rerun 11088
+git pull --rebase --autostash
+./scripts/service-restart task-runner
+./scripts/task-rerun 11088
+vim ./tasks/done/task-20211220-192729-11088-new-feedback/args
+vim ./tasks/failed/task-20211220-192729-11088-new-feedback/args
+./scripts/task-rerun 11088
+./scripts/log-tail
+./scripts/task-list
+git status
+vim scripts/task-list
+./scripts/task-list
+vim tasks/failed/task-20211220-235057-11105-submit-assignment/args
+paste -sd',' tasks/failed/task-20211220-235057-11105-submit-assignment/args
+cat scripts/task-list
+./scripts/task-list
+./scripts/task-list  | cat -vet
+cat tasks/failed/task-20211221-105532-11121-gtb-buddy-register/args
+cat -vet tasks/failed/task-20211221-105532-11121-gtb-buddy-register/args
+./scripts/task-list | less
+cat ./scripts/task-list
+cd tasks/failed/task-20211220-235057-11105-submit-assignment/
+cat args
+cat args -vet
+./scripts/log-tail
+./scripts/log-less
+cat ./scripts/log-less
+journalctl -ea -n20000 -u task-runner.service -u webhook.service
+back
+cd -
+./scripts/task-ilst
+./scripts/task-list
+git status
+vim scripts/task-list
+vim scripts/task-list
+./scripts/task-list
+fg
+man paste
+man paste
+fg
+./scripts/task-list
+fg
+./scripts/task-list
+fg
+./scripts/task-list
+fg
+./scripts/task-list
+./scripts/task-list
+vim tasks/failed/task-20211220-235057-11105-submit-assignment/args
+./scripts/task-rerun 11105
+git diff
+git checkout .
+git pull --rebase --autostash
+man ggrep
+man grep
+echo 'a  b' | grep '[:blank:'
+echo 'a  b' | grep '[:blank:]'
+echo 'a  b' | grep '[::blank::]'
+echo 'a  b' | grep '[::space::]'
+man grep
+echo 'a  b' | grep '[:space:]'
+echo 'a  b' | grep -E '[:space:]'
+echo 'a  b' | grep -E '[[:space:]]'
+echo 'a  b' | grep -E '[[:space:]]' --color
+echo 'a  b' | grep -E '[[:space:]]' --color=always
+echo $?
+echo 'a  b' | grep -E '^[[:space:]]$'
+echo 'a  b' | grep -E '^[[:space:]]+$'
+echo ' ' | grep -E '^[[:space:]]+$'
+echo '   ' | grep -E '^[[:space:]]+$'
+echo "  " | grep -E '^[[:space:]]+$'
+echo " \t " | grep -E '^[[:space:]]+$'
+echo -e " \t " | grep -E '^[[:space:]]+$'
+echo -e " \t\t " | grep -E '^[[:space:]]+$'
+echo -e "a \t\t " | grep -E '^[[:space:]]+$'
+echo -e "" | grep -E '^[[:space:]]+$'
+echo -e "" | grep -E '^[[:space:]]*$'
+echo -e "  " | grep -E '^[[:space:]]*$'
+echo -e "  \t\t \t" | grep -E '^[[:space:]]*$'
+echo -e "  \t\t \t" | grep -E '^[[:space:]]*$' --color
+echo -e "  \t\t \t" | grep -E '^[[:space:]]*$' | cat -ve
+echo -e "  \t\t \t" | grep -E '^[[:space:]]*$' | cat -vet
+cat '  abc  ' | sed 's/ //g'
+echo '  abc  ' | sed 's/ //g'
+echo '  abc  ' | sed 's/ //g' | cat -vet
+echo '  ab c  ' | sed 's/ //g' | cat -vet
+echo '  a  b c  ' | sed 's/ //g' | cat -vet
+echo '  a  b c  ' | sed 's/^ +//g' | cat -vet
+echo '  a  b c  ' | sed 's/^ \+//g' | cat -vet
+echo '  a  b c  ' | sed 's/^ \+| \+$//g' | cat -vet
+echo '  a  b c  ' | sed 's/^ \+\| \+$//g' | cat -vet
+echo ' a  b c ' | sed 's/^ \+\| \+$//g' | cat -vet
+echo 'a  b c' | sed 's/^ \+\| \+$//g' | cat -vet
+echo 'abc' | sed 's/^ \+\| \+$//g' | cat -vet
+echo 'abc' | sed -E 's/^ +| +$//g' | cat -vet
+echo ' a b  c   ' | sed -E 's/^ +| +$//g' | cat -vet
+echo '   a b  c   ' | sed -E 's/^ +| +$//g' | cat -vet
+echo '   a b  c  \t ' | sed -E 's/^ +| +$//g' | cat -vet
+echo '   a b  c  \t ' | sed -E 's/^\s+| +$//g' | cat -vet
+echo '   a b  c  \t ' | sed -E 's/^\s+|\s+$//g' | cat -vet
+echo '   a b  c  \t ' | sed -E 's/^\s+|\b+$//g' | cat -vet
+man sed
+echo '   a b  c  \t ' | sed -E 's/^[[:space:]]+|[[:space:]]+$//g' | cat -vet
+echo -e "   a b  c  \t " | sed -E 's/^[[:space:]]+|[[:space:]]+$//g' | cat -vet
+git pull --rebase --autostash
+./scripts/task-list
+./scripts/task-inspect 11136
+./scripts/task-inspect 11136
+./scripts/task-list | fr
+./scripts/task-inspect 11121
+gtb b list ma.mingjun
+gtb st list ma.mingjun
+gtb b list ma.mingjun
+gtb buddy show li.cuicui
+echo $?
+gtb buddy show li.cuicui2
+echo $?
+tig
+git lop -p
+git log -p
+./scripts/task-list
+git pull --rebase --autostash
+./scripts/task-rerun 11121
+vim ./tasks/failed/task-20211221-110355-11124-gtb-buddy-register/args
+./scripts/task-rerun 11124
+./scripts/task-remove 11128
+./scripts/task-list
+./scripts/task-rerun 11126
+./scripts/task-list | fr
+./scripts/task-list 2000 | fr
+./scripts/task-list 5000 | fr
+./scripts/task-list
+./scripts/task-rerun 11130
+type ft
+type fr
+./scripts/task-list
+./scripts/log-tail
+ack jincheng tasks/
+gtb b list zhang.jincheng
+./scripts/task-list
+./scripts/task-inspect 11183
+gtb b remove zhang.jincheng
+./scripts/task-rerun 11183
+./scripts/task-list
+./scripts/task-inspect 11184
+./scripts/task-list
+./scripts/log-tail
+cat ./scripts/log-tail
+cat ./scripts/log-less
+journalctl -a -n10000 -u webhook.service
+journalctl -e -n10000 -u webhook.service
+journalctl -ea -n10000 -u webhook.service
+journalctl -ea -n10000 -u webhook.service | cat -n
+journalctl -ea -n10000 -u webhook.service | grep 'with arguments'
+journalctl --list-boots
+journalctl --list-boots
+vim commands/new-feedback
+vim services/task-runner/task-runner
+vim tasks/failed/task-20211222-111817-11184-new-feedback/args
+./scripts/task-rerun 11184
+cat ./scripts/log-tail
+vim commands/new-feedback
+./scripts/task-rerun 11184
+git diff
+./scripts/task-list
+./scripts/service-restart webhook
+./scripts/task-list
+./scripts/task-remove 11189
+git status
+git checkou t.
+git checkout .
+git pull --rebase --autostash
+./scripts/service-restart webhook
+./scripts/task-list
+./scripts/task-remove 11190
+./scripts/task-inspect 11197
+vim tasks/failed/task-20211222-134700-11197-request-repo/args
+gi tstatus
+git status
+./scripts/task-rerun 11197
+./scripts/task-list
+./scripts/task-remove 11213
+gtb upgrade
+./scripts/log-tail
+ack liu-wei tasks/
+./scripts/task-inspect 10284
+ack homework-cli-answer tasks
+ack 'homework-cli-answer.*liu-wei' tasks
+ack 'homework-cli-answer.*liu-wei' tasks
+ack 'homework-cli-answer.*yuehan' tasks
+ack 'homework-cli-answer.*liu-wei' tasks
+./scripts/task-list
+./scripts/task-inspect 11226
+./scripts/task-rerun 11226
+./scripts/task-list
+./scripts/log-tail
+./scripts/task-list
+./scripts/task-inspect 11254
+git pull --rebase --autostash
+./scripts/task-rerun 11254
+vim commands/_util
+./scripts/log-tail
+gtb trello card list --board 'GTB-2022-Buddy'
+gtb trello card list --board 'GTB-2022-Buddy' --raw
+vim commands/submit-review
+./scripts/task-rerun 11254
+git status
+git diff
+git checkout commands/submit-review
+./scripts/task-list
+vim commands/submit-review
+./scripts/task-rerun 11254
+./scripts/task-list
+./scripts/task-inspect 11257
+git status
+git diff
+git checkout .
+./scripts/task-remove 11254
+git status
+./scripts/task-list
+./scripts/log-tail
+./scripts/task-list
+ack jincheng tasks/
+./scripts/task-list
+./scripts/task-list
+./scripts/log-tail
+./scripts/task-list
+./scripts/task-inspect 11309
+git pull --rebase --autostash
+./scripts/task-rerun 11309
+gtb trello card list --board "GTB-2022-Buddy" --raw
+gtb trello card list --board "GTB-2022-Buddy" --raw | grep "\^Review gtb-2022-zhang-ziyi/assignment-todo-java-console-app"
+gtb trello card list --board "GTB-2022-Buddy" --raw | grep "\^Review gtb-2022-zhang-ziyi/assignment-todo-java-console-app$"
+git pull --rebase --autostash
+./scripts/task-rerun 11309
+./scripts/task-list
+./scripts/log-tail
+ack gtb-2022-liu-ruichong tasks/
+./scripts/task-inspect 11089
+./scripts/task-inspect 10344
+./scripts/task-inspect 10344
+gtb st list liu.ruichong
+./scripts/task-list
+./scripts/task-list
+./scripts/task-inspect 11327
+./scripts/task-list
+./scripts/task-list | grep 'submit-review'
+./scripts/task-list 1000 | grep 'submit-review'
+./scripts/task-list 1500 | grep 'submit-review'
+./scripts/task-list 1500 | grep 'submit-review' | grep yang-ai
+gtb as sub list yang.ai
+gtb as sub list yang.ai2
+gtb as sub list yang.ai2 yang.ai
+gtb as sub list yang.ai2 yang.ai --fields 1-
+./scripts/task-list
+./scripts/task-rerun 11336
+./scripts/task-rerun 11336
+./scripts/log-tail
+./scripts/task-list
+git pull --rebase --autostash
+./scripts/task-list
+./scripts/task-list
+git pull --rebase --autostash
+./scripts/task-list
+./scripts/task-list | grep register-coachee
+./scripts/task-list | grep register-coachee
+./scripts/log-tail
+./scripts/task-list | grep register-coachee
+git pull --rebase --autostash
+./scripts/task-rerun 11352
+cd ~/gtb/config
+git diff
+git checkout .
+git diff
+cd -
+./scripts/task-rerun 11352
+./scripts/log-tail
+./scripts/task-list
+./scripts/task-inspect 11363
+cat commands/join-org
+cat ~/invitations/
+ll ~/invitations/
+./scripts/task-inspect 11364
+./scripts/task-inspect 11365
+cat scripts/join-orgs
+git pull --rebase --autostash
+./scripts/task-list
+git pull --rebase --autostash
+git pull --rebase --autostash
+git pull --rebase --autostash
+git pull --rebase --autostash
+git show
+ll ~/invitations/
+./scripts/task-list
+./scripts/log-tail
+git pull -r
+exit
+./scripts/task-list
+ll tasks/failed/task-*-*-remove-joined-org
+ls tasks/failed/task-*-*-remove-joined-org
+rm -rf tasks/failed/task-*-*-remove-joined-org
+./scripts/task-list
+ll ~/invitations/
+./scripts/task-remove 11346
+git pull -r
+./scripts/service-restart task-runner
+./scripts/task-list
+git pull --rebase --autostash
+git pull --rebase --autostash
+./scripts/task-list
+./scripts/task-rerun 11403
+./scripts/task-rerun 11411
+./scripts/task-list | fr
+./scripts/task-list | fr
+./scripts/task-inspect 11411
+vim ./tasks/failed/task-20211225-152336-11411-request-repo/args
+./scripts/task-rerun 11411
+./scripts/log-tail
+./scripts/task-list | fr
+./scripts/task-list
+./scripts/task-list
+./scripts/task-list
+./scripts/task-list
+./scripts/task-list
+git pull --rebase --autostash
+./scripts/task-list
+./scripts/task-inspect 010802
+./scripts/task-inspect 11524
+./scripts/task-inspect 11524
+./scripts/task-list
+./scripts/task-list
+./scripts/log-tail
+./scripts/task-list
+./scripts/task-rerun 11527
+cat ./scripts/task-rerun
+./scripts/task-rerun 11528
+./scripts/task-rerun 11531
+./scripts/task-rerun 11532
+./scripts/task-list
+./scripts/task-list
+./scripts/task-list
+./scripts/task-rerun 11529
+./scripts/task-list
+./scripts/task-list
+./scripts/task-list
+./scripts/task-remove 11535
+./scripts/task-list
+./scripts/log-tail
+./scripts/task-list
+./scripts/task-list
+./scripts/log-tail
+./scripts/task-list
+ll ~/invitations/
+rm ~/invitations/gtb-2022-li-boyu
+rm -rf tasks/failed/task-*-*-remove-joined-org
+./scripts/task-list
+vim tasks/failed/task-20211226-121843-11542-submit-review/args
+./scripts/task-rerun 11542
+ll ~/invitations/
+./scripts/task-list
+rm -rf tasks/failed/task-*-*-remove-joined-org
+./scripts/task-list
+ll ~/invitations/
+rm ~/invitations/gtb-2022-zhout-tianle
+./scripts/task-list
+rm -rf tasks/failed/task-*-*-remove-joined-org
+./scripts/task-list
+ls -l ~/invitations/
+git pull --rebase --autostash
+./scripts/task-list
+./scripts/task-remove 11748
+./scripts/log-tail
+./scripts/task-list
+./scripts/task-list
+./scripts/task-list
+./scripts/task-rerun 11775
+./scripts/task-rerun 11775
+./scripts/task-list
+./scripts/task-list
+rm -rf tasks/failed/task-*-*-remove-joined-org
+./scripts/log-tail
+cd tasks/
+cd failed/
+./scripts/task-list
+./scripts/task-list
+./scripts/task-list
+rm -rf tasks/failed/task-*-*-remove-joined-org
+./scripts/task-list
+./scripts/task-rerun 11792
+./scripts/task-list
+./scripts/task-rerun 11841
+./scripts/task-rerun 11842
+./scripts/task-rerun 11843
+./scripts/task-rerun 11844
+./scripts/task-rerun 11845
+./scripts/task-rerun 11847
+./scripts/task-rerun 11853
+./scripts/task-rerun 11859
+./scripts/task-rerun 11862
+./scripts/task-rerun 11865
+./scripts/task-rerun 11875
+./scripts/task-list
+exit
+./scripts/log-tail
+cd tasks/
+cd failed/
+cd task-20211227-160927-11949-request-repo/
+cd tasks
+cd failed/
+cat output
+cat task-20211227-155130-11931-request-repo/
+cd task-20211227-155130-11931-request-repo/
+cat output
+cat cmd
+cat args
+cd ..
+cd ..
+cd todo
+cd task-20211227-155130-11931-request-repo/
+cd ../failed/
+cd task-20211227-155130-11931-request-repo/
+history | grep rerun
+cd ..
+cd task-20211227-162113-11950-request-repo
+cat output
+cd ~/
+cd -
+pwd
+cd ~/code/
+cd automation/
+./scripts/task-rerun 11931
+cd tasks/failed/
+ls | grep request
+./scripts/task-list
+rm -rf tasks/failed/task-*-*-remove-joined-org
+./scripts/task-list
+ls | grep request | cut -t'-'
+ls | grep request
+history | grep rerun
+./scripts/task-rerun 11845
+./scripts/task-rerun 11891
+./scripts/task-rerun 11902
+./scripts/task-rerun 11949
+./scripts/task-rerun 11950
+ls | grep request
+cd ..
+cd done
+./scripts/task-list
+./scripts/task-list
+./scripts/task-list 11382
+type fr
+./scripts/task-list | fr
+gh api /repos/gtb-2022-meng-chanjuan/assignment-todo-cli/commits/1a9eea10958dadbc355135383a863f5b6731958b
+gtb gh limits
+gh api /repos/gtb-2022-meng-chanjuan/assignment-todo-cli/commits/1a9eea10958dadbc355135383a863f5b6731958b
+./scripts/task-list
+./scripts/task-rerun 11950
+./scripts/task-inspect 11859
+./scripts/task-inspect 11859
+./scripts/task-list
+./scripts/task-list | fr
+./scripts/task-remove 11859
+./scripts/log-tail
+./scripts/task-list
+vim commands/join-org
+ll ~/invitations/
+vim commands/remove-joined-org
+telnet github.com 22
+./scripts/task-list
+./scripts/task-rerun 11950
+pwd
+cd ..
+cd ..
+cd scripts/
+pwd
+vim ~/.bashrc
+source ~/.bashrc
+vim ~/.bashrc
+log-tail | fr
+./scripts/task-list
+rm -rf tasks/failed/task-*-*-remove-joined-org
+clear
+task-list
+clr
+clear
+history | rerun
+history | grep rerun
+task-rerun 11983
+task-list
+clear
+task-inspect 11975
+task-inspect 11983
+task-list
+./scripts/task-list
+rm -rf tasks/failed/task-*-*-remove-joined-org
+./scripts/task-list
+task-list
+task-list
+task-inspect 11991
+task-inspect 11998
+task-inspect 11991
+task-list
+task-inspect 11998
+./scripts/task-list
+crontab -l
+vim scripts/hosts-update
+cd ../hosts/
+ll
+cat hosts
+vim ../automation/scripts/hosts-update
+crontab -l
+git log
+git log -p
+brew install tig
+tig
+vim ~/.tigrc
+tig hosts
+vim ~/.tigrc
+tig hosts
+tig hosts
+tig --version
+vim ~/.tigrc
+tig --version
+tig hosts
+tig hosts
+cd ../automation/
+tig
+vim ~/.tigrc
+cd -
+tig hosts
+./scripts/task-list
+cd -
+./scripts/task-list
+./scripts/task-list 2000 | fr
+./scripts/task-list 2000 | fr
+ack yu.qi tasks/
+ack ' yu.qi ' tasks/
+./scripts/task-list
+./scripts/task-list
+rm -rf tasks/failed/task-*-*-remove-joined-org
+./scripts/task-list
+ll
+./scripts/task-list
+./scripts/task-remove 12026
+ack li.xingyang
+task-inspect 11530
+task-rerun 11530
+./scripts/task-list
+parallel task-remove ::: 11991 11998 12012 12014
+./scripts/log-tail
+git status
+git pull --rebase --autostash
+./scripts/task-list
+task-remove 11991 11998 12012 12014
+git pull --rebase --autostash
+request-repo
+task-list
+task-list
+git pull --rebase --autostash
+./scripts/task-list 2000 | fr
+./scripts/task-list
+task-list
+task-inspect 12092
+task-rerun 12092
+./scripts/task-list
+log-less tail
+rm -rf tasks/failed/task-*-*-remove-joined-org
+./scripts/task-list
+history | grep limit
+gtb gh limits
+telnet github.com 22
+ping github.com
+ssh -T git@github.com
+ipconfig
+ifconfig
+task-rerun 12091
+cat /etc/hosts
+cd ../hosts/
+tig
+crontab -l
+cat /home/ubuntu/code/automation/scripts/hosts-update
+tig
+trace dig+ github.com
+tig
+apt install trace
+apt-get install trace
+telnet --help
+sudo apt-get install trace
+man telnet
+task-list
+task-list
+echo $?
+task-list
+nc
+ssh -T git@github.com
+cd ~/tmp
+cd ..
+mkdir tmp
+cd tmp
+man nc
+cd -
+ping baidu.com
+cd ..
+cd tmp
+telnet baidu.com 80
+vim scripts/hosts-update
+sudo apt install traceroute
+fg
+cat ../hosts/hosts | grep github.com
+cat ../hosts/hosts | grep '\sgithub.com$'
+cat ~/.gitconfig
+cat ../hosts/hosts | grep '\sgithub.com$' | awk '{print $1}'
+cat ../hosts/hosts | grep '\sgithub.com$' | awk '{print $1}' | cat -vet
+traceroute github.com
+vim ~/.gitconfig
+dig
+dig +trace github.com
+vim ~/.gitconfig
+fg
+cat ../hosts/hosts | grep '\sapi.github.com$' | awk '{print $1}' | cat -vet
+ssh -T git@github.com
+wget https://raw.githubusercontent.com
+traceroute -T --port=443 github.com
+sudo traceroute -T --port=443 github.com
+sudo traceroute -T --port=22 github.com
+nslookup raw.githubusercontent.com
+wget https://raw.githubusercontent.com
+tcpdump -d
+sudo tcpdump -d
+sudo tcpdump
+sudo tcpdump -c 100 -q
+fg
+git diff
+git add -p
+git commit -m 'feat: cancel updating hosts if new address is unreachable in 15 seconds''
+git commit -m 'feat: cancel updating hosts if new address is unreachable in 15 seconds'
+git push
+cd -
+tig
+sudo vim /etc/host.conf
+sudo vim /etc/hosts
+git push
+cd -
+gi tpush
+git push
+cd ~/.ssh/
+ssh -T git@github.com
+task-list
+cd ..
+task-list
+cd ..
+cd ubuntu/
+cat $PATH
+cd /home/ubuntu/code/automation/scripts
+task-list
+./task-list
+exit
+exit
+task-list
+vim scripts/hosts-update
+git add -p
+git commit -m 'feat: log output of ./scripts/hosts-update'
+ssh -T git@github.com
+git push
+telnet github.com 22
+crontab -e
+./scripts/hosts-update
+task-list
+    grep --silent 'succeeded!' <(nc -vz -w "${TIMEOUT}" "${IP}")
+task-rerun 12091
+task-inspect 12091
+./scripts/hosts-update
+gtb gh limits
+git pull --rebase --autostash
+./scripts/hosts-update
+gtb gh limits
+grep --silent 'succeeded!' <(nc -vz -w "5" "140.82.114.4" 22)
+echo $?
+grep --silent 'succeeded' <(nc -vz -w "5" "140.82.114.4" 22)
+gtb gh limits
+grep --silent 'succeeded' <(nc -vz -w "5" "140.82.114.4" 22 2>/dev/null)
+echo $?
+task-list
+grep --silent 'succeeded' <(nc -vz -w "5" "140.82.114.4" 22 2>&1)
+echo $?
+task-rerun 12107
+git pull --rebase --autostash
+cat /etc/hosts | grep '\sgithub.com'
+nc -vz -w 15 140.82.114.3 22
+cat ../hosts/hosts | grep '\sgithub.com'
+nc -vz -w 15 140.82.114.4 22
+cd -
+tig
+nc -vz -w 15 140.82.113.3 22
+cd -
+./scripts/hosts-update
+nc -vz -w 4 140.82.112.5 22
+cat ../hosts/hosts | grep '\sapi.github.com'
+telnet github.com 443
+./scripts/task-list
+task-rerun 12092
+task-rerun 12098
+task-rerun 12101
+./scripts/task-list
+task-remove 12093 12094 12099 12100
+task-remove 12093 12094 12099 12100
+./scripts/task-list
+crontab -l
+./scripts/hosts-update
+cat /etc/hosts | grep api.github.com
+echo140.82.112.5
+echo 140.82.112.5
+nc -vz -w 4 140.82.112.5 80
+cat ~/.bash_history | tail -200
+git pull --rebase --autostash
+./scripts/hosts-update
+/home/ubuntu/code/automation/scripts/hosts-update 1>>/home/ubuntu/log/hosts-update.log 2>&1
+tail -f ~/log/hosts-update.log
+./scripts/task-list
+crontab -l
+tail -n 500 /home/ubuntu/log/hosts-update.log
+./scripts/task-list
+tail -n 1000 /home/ubuntu/log/hosts-update.log
+./scripts/task-list
+nc -vz -w 15 140.82.113.3 22
+cat /etc/hosts
+cat /etc/hosts | grep "140.82.113.3"
+nc -vz -w 15 140.82.114.4 22
+exit
+./scripts/log-tail
+task-list
+task-inspect 12161
+task-list
+rm -rf tasks/failed/task-*-*-remove-joined-org
+task-list
+task-list
+task-list | fr
+task-inspect 12044
+./scripts/log-tail
+ll ~/invitations/
+task-list
+task-list
+cd tasks
+cd done
+ls | grep 20211227 | grep request
+ls | grep 20211227 | grep request | grep 21
+cd ..
+cd todo
+cd ../failed/
+task-inspect 12269-
+task-rerun 12269-
+task-rerun 12269
+less ~/log/hosts-update.log
+task-list | fr
+task-rerun 12270
+./scripts/log-tail
+task-list | fr
+task-list
+rm -rf tasks/failed/task-*-*-remove-joined-org
+task-list
+task-list | fr
+task-rerun 12196
+task-remove 12282
+task-remove 12284
+task-list
+./scripts/log-tail
+cd scripts/
+cd ..
+cd handlers/
+cd ..
+cd services/
+cd ..
+cd tasks/
+cd ..
+cd commands/
+./scripts/task-list 3000 | fr
+task-inspect 11334
+task-inspect 11334
+ack 5GiZUsaM tasks
+ack 5GiZUsaM tasks
+man ack
+ack --sort-files 5GiZUsaM tasks
+ack --sort-files 5GiZUsaM tasks
+task-inspect 11380
+ack --sort-files 5GiZUsaM tasks/**/args
+ack --sort-files 5GiZUsaM tasks/*/args
+ack --sort-files 5GiZUsaM */args
+ack --sort-files 5GiZUsaM **/args
+ack --sort-files 5GiZUsaM tasks/*/*/args
+ack --sort-files gtb-2022-zhang-yanhua tasks/*/*-submit-*/args
+ack --sort-files gtb-2022-zhang-yanhua tasks/*/*-submit-*/args
+ack -C2 --sort-files gtb-2022-zhang-yanhua tasks/*/*-submit-*/args
+task-list
+task-list
+cd services/
+cd task-runner/
+cat task-runner
+cd ..
+cd webhook/
+cat pid
+cat hooks.json
+cat webhook.service
+cd ..
+cd ..
+cd handlers/
+cd de
+cat default
+cd ..
+cd scripts/
+cat hosts-update
+exit
+ll
+task-list
+rm -rf tasks/failed/task-*-*-remove-joined-org
+task-list
+task-inspect 12395
+vim ./tasks/failed/task-20211231-104446-12395-request-repo/args
+task-rerun 12395
+task-inspect 12351
+task-rerun 12351
+task-list
+task-remove 12290
+task-list
+./scripts/log-tail
+./scripts/log-tail
+task-list
+rm -rf tasks/failed/task-*-*-remove-joined-org
+ll ~/invitations/
+rm ~/invitations/gtb-2022-huang-kaixin
+task-list
+gtb b map --by-buddy su.xiaofeng
+gtb b map list --by-buddy su.xiaofeng
+gtb b list --by-buddy su.xiaofeng
+gtb b list su.xiaofeng
+task-remove 12982
+task-list 2000 | ft
+task-list 2000 | fr
+task-remove 12422 12596 12601 12982
+task-list
+task-remove 12983
+task-list
+task-list | grep -E '12606|12936'
+task-list 3000 | grep -E '10000|11000|12000|13000'
+task-list 3000 | grep -E '10100|11000|12000|13000'
+task-list 3000 | grep -E '10010|11000|12000|13000'
+ll
+task-list | fr
+task-list | fr
+task-list | fr
+task-list | fr
+task-inspect 13063
+vim commands/gtb-buddy-map-buddee
+gtb st org invite create --buddy niu.nian --debug
+gtb b show niu.nian
+./scripts/log-tail
+vim commands/gtb-buddy-map-buddee
+task-list | fr
+task-rerun 13073
+./scripts/log-tail
+task-list | fr
+./scripts/log-tail
+ll ~/inivi
+ll ~/invitations/
+./scripts/log-tail
+task-list | fr
+task-inspect 13069
+gtb b show bai.zhaoyi
+task-list 1000 | fr
+rm -rf tasks/failed/task-*-*-remove-joined-org
+task-list
+task-list 1000 | fr
+task-rerun 13063
+./scripts/log-tail
+task-list 1000 | fr
+task-list 1000 | grep ' request-repo'
+git status
+git pull --rebase --autostash
+task-rerun 13659
+./scripts/log-tail
+git pull --rebase --autostash
+./scripts/log-tail
+task-list 1000
+rm -rf tasks/failed/task-*-*-remove-joined-org
+task-list 1000
+task-remove 13039 13111 13572 13590 13705
+task-list
+gtb b map list --by-buddy liangyunyue.liao
+gtb b map list --by-buddy liao.liangyunyue
+gtb b map list --by-buddy hu.han
+gtb b map list --by-buddy han.hu
+gtb b map list --by-buddy deng.yusong
+gtb b map list --by-buddy yusong.deng
+gtb b list yusong.deng deng.yusong
+vim commands/gtb-buddy-map-buddee
+vim services/webhook/hooks.json
+./scripts/log-tail
+task-list
+task-list 1000 | fr
+task-list
+task-list 1000 | fr
+gtb st list gtb-2022-zhao-siqi
+task-rerun 13863
+./scripts/log-tail
+task-list
+task-remove 13057 13562 13740 13758 13759
+git st
+task-list
+gtb st list 02
+gtb st list 02
+task-list
+task-list 3000 | grep -E '10010|11000|12000|13000'
+task-list
+gtb st list 02
+task-list
+rm -rf tasks/failed/task-*-*-remove-joined-org
+task-list 1000 | fr
+task-inspect 13890
+task-rerun 13890
+./scripts/log-tail
+ack to buddy board
+ack 'to buddy board' commands/
+vim commands/register-coachee
+task-rerun 13890
+./scripts/log-tail
+git st
+git status
+git add -p
+git commit -m 'fix: add student to board instead of buddies'
+git push
+ack SSLError: tasks/
+ack SSLError tasks/
+rm -rf tasks/failed/task-*-*-remove-joined-org
+git st
+git status
+task-list 1000 | fr
+task-list 3000 | grep -E '10010|11000|12000|13000'
+task-list 4000 | grep -E '10010|11000|12000|13000'
+pwd
+task-list
+task-inspect 14150
+vim commands/submit-review
+vim commands/submit-review
+task-rerun 14150
+./scripts/log-tail
+task-list
+task-inspect 14157
+task-rerun 14157
+./scripts/log-tail
+vim ~/.cache/gtb/trello
+rm -rf tasks/failed/task-*-*-remove-joined-org
+docker images
+exit
+ll ~/invitations/
+rm ~/invitations/gtb-2022-yang-yingying
+rm -rf tasks/failed/task-*-*-remove-joined-org
+task-list
+ll ~/invitations/
+http://www.google.com/
+curl http://www.google.com/
+man curl
+curl --connect-timeout 20 http://www.google.com/
+curl --connect-timeout 3 http://www.google.com/
+task-list
+task-rerun 14521
+task-rerun 14522
+vim tasks/failed/task-20220112-190304-14559-request-repo/args
+vim tasks/failed/task-20220111-135424-14176-request-repo/args
+vim tasks/failed/task-20220111-135546-14178-request-repo/args
+vim tasks/failed/task-20220112-190304-14559-request-repo/args
+vim tasks/failed/task-20220112-193425-14562-request-repo/args
+vim tasks/failed/task-20220112-135444-14537-request-repo/args
+task-list
+task-rerun 14176 14178 14537 14559 14562
+./scripts/log-tail
+task-list
+task-rerun 14178 14537 14559 14562
+task-rerun 14537 14559 14562
+task-rerun 14559 14562
+task-rerun 14562
+./scripts/log-tail
+task-list
+task-remove 14520
+task-list
+task-list
+gtb b map list --by-buddy pan.xiao
+task-inspect 14606
+task-inspect 14606
+vim commands/gtb-buddy-map-buddee
+gtb b map list --by-buddy pan.xiao
+gtb b map list --by-buddy wang.yuxin
+rm -rf tasks/failed/task-*-*-remove-joined-org
+task-list commands/
+task-list
+exit
+task-list
+exit
+task-list
+rm -rf tasks/failed/task-*-*-remove-joined-org
+task-list
+gtb b list wang.yuxin
+gtb b map list --by-buddy wang.yuxin
+task-remove 14606 14607
+gtb st org check --role wang.xiaofeng wang.xuechun
+task-remove 14680
+task-list
+tast-stat
+./scripts/task-stat
+task-list
+git pull --rebase --autostash
+task-remove 14769 14878 14923 14603
+ll tasks/archive/
+rm -rf tasks/archive
+mkdir tasks/archive
+ll tasks/
+task-list 4000 | grep -E '10010|11000|12000|13000|14000'
+task-list 5000 | grep -E '10010|11000|12000|13000|14000'
+task-list 5000 | grep -E '10010|11000|12000|13000|14001'
+./scripts/task-inspect 14001
+./scripts/task-inspect 14002
+./scripts/task-inspect 14003
+./scripts/task-inspect 14004
+task-list 2000
+task-stat
+task-stat | grep -E '10010|11000|12000|13000|14009'
+task-stat | grep -E '-(10010|11000|12000|13000|14009)-'
+task-stat | grep -E '-\(10010|11000|12000|13000|14009\)-'
+task-stat | grep -E "-(10010|11000|12000|13000|14009)-"
+task-stat | grep -E "10010|11000|12000|13000|14009"
+man grep
+task-stat | grep -E "(10010|11000|12000|13000|14009)"
+task-stat | grep -E "\-(10010|11000|12000|13000|14009)\-"
+task-stat | grep -E "\-(10009|10010|11000|12000|13000|14009)\-"
+task-stat | grep -E "\-(10004|10010|11000|12000|13000|14009)"
+task-stat | grep -E "\-(10004|10010|11000|12000|13000|14009)\b"
+task-stat | grep -E "\-(10004|11000|12000|13000|14009)\b"
+history
+history >~/history.log
