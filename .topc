@@ -7,6 +7,7 @@ sed -E 's/ +\| +/\n/g' "${HISTORY_FILE}" \
         -e 's/^ +//' \
         -e 's#^./scripts/##' \
         -e 's/^sudo +//' \
+        -e 's/^nohup +//' \
     | cut -d' ' -f1 \
     | grep -v -E '^(cd|ls|ll|echo|cat|vim)$' \
     | awk '{cmds[$1]++; total++;} END{for (cmd in cmds) {printf "%d %.2f %s\n", cmds[cmd], cmds[cmd]/total*100, cmd;}}' \
