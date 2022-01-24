@@ -14,7 +14,4 @@ sed -E 's/ +\| +/\n/g' "${HISTORY_FILE}" \
     | sort -t' ' -k1,1nr -k3,3 \
     | head -n10 \
     | awk '{printf "%4d %6s  %s\n", $1, $2, $3}'
-    # | sort \
-    # | uniq -c \
-    # | sort -n
 
