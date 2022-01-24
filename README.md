@@ -44,6 +44,16 @@ cat nohup.out
 
 ![image-topc](./images/topc-example.jpg)
 
+文本形式的的输出结果保存在 `output.txt` 中，可以在 Ubunut 里执行以下命令快速验证结果是否与 `output.txt` 相符：
+
+```txt
+diff ./output.txt <(topc history.log)
+```
+
+请将所有实现代码写在 `topc` 文件中，无需创建其它文件或 shell functions 等。
+
+参考答案在 `.topc` 中，请自行按需选择如何使用 :)
+
 ### 具体要求
 
 * 按次数从多到少进行排列，次数一样的，按照字母升序排列
@@ -52,7 +62,9 @@ cat nohup.out
 * 如果命令行的第一个单词是以下命令，则忽略之，取其后面的命令进行计数
   * sudo
   * nohup
-* 如果命令行的第一个命令以相对路径或绝对路径的方式出现，则去掉路径部分，只取命令名字本身进行计数，如：
+* 如果命令以相对路径或绝对路径的方式出现，需去掉路径部分，只取命令名字本身进行计数，如：
+  * scripts/task-list -> task-list
+  * /scripts/task-list -> task-list
   * ./scripts/task-list -> task-list
 * 忽略以下极其常见且简单的命令
   * ls
@@ -61,7 +73,7 @@ cat nohup.out
   * echo
   * cat
   * vim
-* 某些命令行的可能存在一个或多个前置的空格，需要忽略掉
+* 某些命令行的可能存在一个或多个前置的空格，需要忽略掉这些空格再进行计数
 * 可以只针对所提供示例文件进行编写，不必考虑更多复杂情况（`$(... $(...))`）
 
 ## 我应该学到什么

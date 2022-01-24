@@ -2344,7 +2344,6 @@ gtb limits
 sudo amazon-linux-extras install docker
 sudo yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
 sudo apt-get remove docker docker-engine docker.io containerd runc
-docker
 sudo apt-get update
 sudo apt-get install docker-ce docker-ce-cli containerd.io
 sudo apt-get install     ca-certificates     curl     gnupg     lsb-release
@@ -2361,7 +2360,6 @@ newgrp docker
 docker ps
 newgrp - docker
 newgrp docker
-docker
 docker images
 sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
@@ -2383,7 +2381,6 @@ ll
 ll
 cd gtb-cypress-dockerfile/
 ll
-docker -v
 glow README.md
 cd ../automation/
 lll
@@ -3755,9 +3752,9 @@ sort -t' ' -i -k'1,4' -u assignment-submissions-gtb-2022.txt
 sort -t' ' -i -k'1,4' -u assignment-submissions-gtb-2022.txt
 export LC_COLLATE=C
 sort -t' ' -i -k'1,4' -u assignment-submissions-gtb-2022.txt
-echo -e "c\nb\nB\na" | LC_COLLATE=C sort --ignore-case
-echo -e "c\nb\nB\na" | LC_COLLATE=C sort
-echo -e "d\nD\nc\nb\nB\na" | LC_COLLATE=C sort
+echo -e "c\nb\nB\na" | sort --ignore-case
+echo -e "c\nb\nB\na" | sort
+echo -e "d\nD\nc\nb\nB\na" | sort
 man sort
 man sort
 brew install coreutils

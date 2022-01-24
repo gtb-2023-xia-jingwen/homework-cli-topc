@@ -1,17 +1,16 @@
 #!/usr/bin/env bash
 
-HISTORY_FILE="${1:?history file is required!}"
+declare -r INPUT_FILE="${1:?input file is required!}"
 
-sed -E 's/ +\| +/\n/g' "${HISTORY_FILE}" \
-    | sed -E \
-        -e 's/^ +//' \
-        -e 's#^./scripts/##' \
-        -e 's/^sudo +//' \
-        -e 's/^nohup +//' \
+sed -E -e 's/ +\| +/\n/g' \
+    -e 's/^(sudo|nohup) +//' \
+    -e 's/^ +//' \
+    "$INPUT_FILE" \
     | cut -d' ' -f1 \
-    | grep -v -E '^(cd|ls|ll|echo|cat|vim)$' \
-    | awk '{cmds[$1]++; total++;} END{for (cmd in cmds) {printf "%d %.2f%% %s\n", cmds[cmd], cmds[cmd]/total*100, cmd;}}' \
+    | sed -E 's#^.*/##' \
+    | grep -v -E '^(ls|ll|cd|echo|cat|vim)$' \
+    | awk '{cmds[$1]++; total++;} END{for (cmd in cmds) {printf "%d %f %s\n", cmds[cmd], cmds[cmd]/total*100, cmd;}}' \
     | sort -t' ' -k1,1nr -k3,3 \
     | head -n10 \
-    | awk '{printf "%4d %6s  %s\n", $1, $2, $3}'
+    | awk '{printf "%4d %6.2f%%  %s\n", $1, $2, $3}'
 
