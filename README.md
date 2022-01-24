@@ -78,7 +78,27 @@ diff ./output.txt <(topc history.log)
 
 ## 我应该学到什么
 
-* foo
-* bar
+* 如何将一个复杂问题逐步的化繁为简地解决掉
+  * 务必要自己实际多做几次，光看的话，一定会觉得“很乱”
+* 一些实用命令的用法：sort、uniq、grep、cut、sed、awk 等等
+* 一些 Shell 脚本的技巧
+  * 参数检查
+    * `declare -r INPUT_FILE="${1:?input file is required!}"`
+  * Process substitution
+    * `diff ./output.txt <(topc history.log)`
+    * `topc <(history | tr -s ' ' | cut -d' ' -f3-)`
+  * 快速调试
+* 如何执行自定义的命令
+  * 关于 `$PATH` 环境变量
+  * 关于 Linux 的目录结构的简单了解
+    * [General overview of the Linux file system](https://tldp.org/LDP/intro-linux/html/sect_03_01.html)
+    * [Linux目录结构](http://linux-wiki.cn/wiki/zh-hans/Linux%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84)
 * 管道的思想
+* 数据的处理和数据的展示要分离
+* 自己要负责代码的正确性
+  * 自己要想办法进行验证
+  * 要考虑周全
+  * 这不是一件容易的事情
+  * 关乎职业操守、职业道德
+* 耐心。当然，搞定各种问题，也正是编程的乐趣所在
 
