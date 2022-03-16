@@ -40,33 +40,13 @@ ll
 cat nohup.out
 ```
 
-`topc` 命令将会对文件内容进行分析，统计每个命令出现的次数，最终输出 Top 排行榜，列出使用次数最多的十个命令。
+`topc` 命令将会对文件内容进行分析，统计每个命令出现的次数，最终输出 Top 排行榜，列出使用次数最多的 10 个命令及其统计次数等信息。
 
 ![image-topc](./images/topc-example.jpg)
 
-文本形式的的输出结果保存在 `output.txt` 中，可以在 Ubuntu 里执行以下命令快速验证结果是否与 `output.txt` 相符：
-
-```bash
-diff ./output.txt <(topc history.log)
-```
-
-请将所有实现代码写在 `topc` 文件中，无需创建其它文件或 shell functions 等。
-
-参考答案在 `.topc` 文件中，请自行按需选择如何使用 :P
-
-使用 Windows 系统的同学如在 diff 时发现“内容都是一样的，但是 diff 却提示每一行都不同”，大致如下图所示：
-
-![image-topc](./images/topc-diff-issue-on-windows.png)
-
-请执行以下命令后再进行 diff 操作：
-
-```bash
-dos2unix ./output.txt
-diff ./output.txt <(topc history.log)
-```
-
 ### 具体要求
 
+* 请将所有实现代码写在 `topc` 文件中，无需创建其它文件或定义任何其它 shell function、alias 等。
 * 命令按统计次数从多到少进行排列，次数一样的，按照字母升序排列
 * 文件不存在时要给出适当的提示信息（stderr、non-zero exit code）
 * 如果命令里出现了管道的使用，需要将管道里的每个命令都要统计次数，不能只统计第一个命令而忽略后面的命令
@@ -86,6 +66,29 @@ diff ./output.txt <(topc history.log)
   * vim
 * 某些命令行可能存在一个或多个前置的空格，需要忽略掉这些空格再进行计数
 * 可以只针对所提供示例文件进行编写，不必考虑更多复杂情况，比如 Command Substitution `$(... $(...))` 等等
+
+## 如何验证结果
+
+所期待的输出结果以纯文本（plain text）形式保存在 `output.txt` 文件中，可以在 Ubuntu 环境里执行以下命令快速验证你的实现所给出的结果是否正确：
+
+```bash
+# 请确保 `output.txt` 文件没有任何修改
+
+diff ./output.txt <(topc history.log)
+```
+
+使用 Windows 系统的同学如果使用文本编辑器对文件 `output.txt` 进行查看，甚至是编辑，则可能在 diff 时发现“内容都是一样的，但是 diff 却提示每一行都不同”的现象，大致如下图所示：
+
+![image-topc](./images/topc-diff-issue-on-windows.png)
+
+请执行以下命令后再进行 diff 操作：
+
+```bash
+dos2unix ./output.txt
+diff ./output.txt <(topc history.log)
+```
+
+参考答案在 `.topc` 文件中，请自行按需选择如何使用 :P
 
 ## 我应该学到什么
 
