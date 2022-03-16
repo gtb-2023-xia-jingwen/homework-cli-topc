@@ -44,7 +44,7 @@ cat nohup.out
 
 ![image-topc](./images/topc-example.jpg)
 
-文本形式的的输出结果保存在 `output.txt` 中，可以在 Ubunut 里执行以下命令快速验证结果是否与 `output.txt` 相符：
+文本形式的的输出结果保存在 `output.txt` 中，可以在 Ubuntu 里执行以下命令快速验证结果是否与 `output.txt` 相符：
 
 ```bash
 diff ./output.txt <(topc history.log)
