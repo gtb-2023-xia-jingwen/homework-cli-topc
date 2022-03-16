@@ -54,6 +54,17 @@ diff ./output.txt <(topc history.log)
 
 参考答案在 `.topc` 文件中，请自行按需选择如何使用 :P
 
+使用 Windows 系统的同学如在 diff 时发现“内容都是一样的，但是 diff 却提示每一行都不同”，大致如下图所示：
+
+![image-topc](./images/topc-diff-issue-on-windows.png)
+
+请执行以下命令后再进行 diff 操作：
+
+```bash
+dos2unix ./output.txt
+diff ./output.txt <(topc history.log)
+```
+
 ### 具体要求
 
 * 命令按统计次数从多到少进行排列，次数一样的，按照字母升序排列
