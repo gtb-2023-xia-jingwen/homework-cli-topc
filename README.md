@@ -74,10 +74,13 @@ cat nohup.out
 ```bash
 # 请确保 `output.txt` 文件没有任何修改
 
-diff ./output.txt <(topc history.log)
+# 原始版本
+diff output.txt <(./topc history.log)
+# 升级版本
+diff <(tr -d '\r' <output.txt) <(./topc history.log)
 ```
 
-使用 Windows 系统的同学如果使用文本编辑器对文件 `output.txt` 进行查看，甚至是编辑，则可能在 diff 时发现“内容都是一样的，但是 diff 却提示每一行都不同”的现象，大致如下图所示：
+使用 Windows 系统的同学可能在 diff 时发现“内容都是一样的，但是 diff 却提示每一行都不同”的现象，大致如下图所示：
 
 ![image-topc](./images/topc-diff-issue-on-windows.png)
 
@@ -87,6 +90,8 @@ diff ./output.txt <(topc history.log)
 dos2unix ./output.txt
 diff ./output.txt <(topc history.log)
 ```
+
+或直接使用升级版本的对比命令进行结果的验证。
 
 参考答案在 `.topc` 文件中，请自行按需选择如何使用 :P
 
