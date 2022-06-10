@@ -80,18 +80,31 @@ diff output.txt <(./topc history.log)
 diff <(tr -d '\r' <output.txt) <(./topc history.log)
 ```
 
-使用 Windows 系统的同学可能在 diff 时发现“内容都是一样的，但是 diff 却提示每一行都不同”的现象，大致如下图所示：
+### 使用 Windows 系统的同学
+
+1. 如果发现经过 `sort | uniq` 后仍然会有内容重复的行出现
+
+请执行以下命令后看问题是否消除：
+
+```bash
+dos2unix ./history.log
+```
+
+如果问题依然存在，请到线上答疑向 Coach 求助。
+
+1. 如果在 diff 时发现“内容都是一样的，但是 diff 却提示每一行都不同”的现象，大致如下图所示：
 
 ![image-topc](./images/topc-diff-issue-on-windows.png)
 
-请执行以下命令后再进行 diff 操作：
+请直接使用前文中提供的升级版本的对比命令进行结果的验证，或执行以下命令后再进行 diff 操作：
 
 ```bash
 dos2unix ./output.txt
-diff ./output.txt <(topc history.log)
 ```
 
-或直接使用升级版本的对比命令进行结果的验证。
+如果问题依然存在，请到线上答疑向 Coach 求助。
+
+## 参考答案
 
 参考答案在 `.topc` 文件中，请自行按需选择如何使用 :P
 
